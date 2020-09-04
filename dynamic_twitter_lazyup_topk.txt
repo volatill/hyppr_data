@@ -1,0 +1,1369 @@
+[0;32m--------------start------------2020-08-31 00:59:29[0m
+[0;32margs:dynamic-topk --algo lazyup --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --baton --beta 1 --query_size 200 --update_size 200 [0m
+action: dynamic-topk
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-topk 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+init parameters graph.n=41652230 
+finished initing parameters 
+graph.n=41652230 graph.m=1468364884 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 
+i=0 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=1 
+i=1 
+Id: 11925756  Delta: 1.5625e-05
+i=2 
+Id: 24713556  Delta: 3.125e-05
+i=3 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=19 
+i=4 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=20 
+i=5 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=6 
+Id: 4047751  Delta: 1.5625e-05
+i=7 
+Id: 28058100  Delta: 3.125e-05
+i=8 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=9 
+errorlimit*epsrate=5.28183e-07 
+count=0 
+graph.gr[u].size()=20 
+i=10 
+Id: 39945745  Delta: 1.5625e-05
+i=11 
+errorlimit*epsrate=2.64092e-07 
+count=0 
+graph.gr[u].size()=14 
+i=12 
+Id: 37992801  Delta: 1.5625e-05
+i=13 
+Id: 23939786  Delta: 1.5625e-05
+i=14 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=15 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=16 
+i=16 
+errorlimit*epsrate=2.76096e-07 
+count=0 
+graph.gr[u].size()=21 
+i=17 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=3 
+i=18 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=4 
+i=19 
+Id: 16019720  Delta: 1.5625e-05
+i=20 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=2 
+i=21 
+errorlimit*epsrate=1.08037e-07 
+count=0 
+graph.gr[u].size()=1 
+i=22 
+Id: 4298613  Delta: 1.5625e-05
+i=23 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=1 
+i=24 
+Id: 21100026  Delta: 3.125e-05
+i=25 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=22 
+i=26 
+Id: 6556743  Delta: 3.125e-05
+i=27 
+Id: 22175055  Delta: 1.5625e-05
+i=28 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=0 
+i=29 
+Id: 17224387  Delta: 1.5625e-05
+i=30 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=20 
+i=31 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=21 
+i=32 
+Id: 39169533  Delta: 3.125e-05
+i=33 
+Id: 27754244  Delta: 1.5625e-05
+i=34 
+Id: 26236613  Delta: 1.5625e-05
+i=35 
+errorlimit*epsrate=2.28079e-07 
+count=0 
+graph.gr[u].size()=21 
+i=36 
+Id: 2070794  Delta: 3.125e-05
+i=37 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=0 
+i=38 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=3 
+i=39 
+Id: 11117176  Delta: 3.125e-05
+i=40 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=5 
+i=41 
+errorlimit*epsrate=3.36116e-07 
+count=0 
+graph.gr[u].size()=40 
+i=42 
+Id: 7371526  Delta: 3.125e-05
+i=43 
+errorlimit*epsrate=8.52295e-07 
+count=0 
+graph.gr[u].size()=90 
+i=44 
+Id: 107760  Delta: 1.5625e-05
+i=45 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=7 
+i=46 
+Id: 36531773  Delta: 3.90625e-06
+i=47 
+errorlimit*epsrate=2.28079e-07 
+count=0 
+graph.gr[u].size()=1 
+i=48 
+Id: 39021177  Delta: 1.5625e-05
+i=49 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=25 
+i=50 
+Id: 9937524  Delta: 1.5625e-05
+i=51 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=0 
+i=52 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=12 
+i=53 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=0 
+i=54 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=20 
+i=55 
+errorlimit*epsrate=2.40083e-07 
+count=0 
+graph.gr[u].size()=14 
+i=56 
+Id: 28551503  Delta: 1.5625e-05
+i=57 
+Id: 5519635  Delta: 3.125e-05
+i=58 
+errorlimit*epsrate=2.28079e-07 
+count=0 
+graph.gr[u].size()=3 
+i=59 
+Id: 1869691  Delta: 3.125e-05
+i=60 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=2 
+i=61 
+errorlimit*epsrate=1.92067e-07 
+count=0 
+graph.gr[u].size()=6 
+i=62 
+Id: 37710893  Delta: 3.125e-05
+i=63 
+Id: 18208841  Delta: 3.125e-05
+i=64 
+Id: 5548441  Delta: 3.125e-05
+i=65 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=0 
+i=66 
+Id: 987084  Delta: 1.5625e-05
+i=67 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=0 
+i=68 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=19 
+i=69 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=7 
+i=70 
+Id: 40685219  Delta: 1.5625e-05
+i=71 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=0 
+i=72 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=1 
+i=73 
+Id: 17474197  Delta: 1.5625e-05
+i=74 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=6 
+i=75 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=23 
+i=76 
+Id: 25700640  Delta: 3.125e-05
+i=77 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=2 
+i=78 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=90 
+i=79 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=80 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=4 
+i=81 
+Id: 3080741  Delta: 1.5625e-05
+i=82 
+Id: 3880067  Delta: 1.5625e-05
+i=83 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=2 
+i=84 
+Id: 23994155  Delta: 1.5625e-05
+i=85 
+Id: 17853624  Delta: 1.5625e-05
+i=86 
+Id: 4599936  Delta: 3.125e-05
+i=87 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=2 
+i=88 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=8 
+i=89 
+Id: 40013875  Delta: 1.5625e-05
+i=90 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=1 
+i=91 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=5 
+i=92 
+errorlimit*epsrate=1.80062e-07 
+count=0 
+graph.gr[u].size()=21 
+i=93 
+Id: 22152238  Delta: 3.125e-05
+i=94 
+Id: 25699962  Delta: 3.125e-05
+i=95 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=14 
+i=96 
+Id: 23350700  Delta: 1.5625e-05
+i=97 
+errorlimit*epsrate=7.32254e-07 
+count=0 
+graph.gr[u].size()=192 
+i=98 
+Id: 2675063  Delta: 3.125e-05
+i=99 
+Id: 1272119  Delta: 1.5625e-05
+i=100 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=17 
+i=101 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=102 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=5 
+i=103 
+errorlimit*epsrate=1.56054e-07 
+count=0 
+graph.gr[u].size()=20 
+i=104 
+Id: 20868003  Delta: 1.5625e-05
+i=105 
+Id: 30429308  Delta: 1.5625e-05
+i=106 
+Id: 4288815  Delta: 1.5625e-05
+i=107 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=108 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=14 
+i=109 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=0 
+i=110 
+Id: 41371110  Delta: 1.5625e-05
+i=111 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=0 
+i=112 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=0 
+i=113 
+Id: 41546484  Delta: 1.5625e-05
+i=114 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=20 
+i=115 
+Id: 11660341  Delta: 1.5625e-05
+i=116 
+Id: 41478870  Delta: 3.125e-05
+i=117 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=5 
+i=118 
+errorlimit*epsrate=2.16075e-07 
+count=0 
+graph.gr[u].size()=22 
+i=119 
+Id: 13206109  Delta: 1.5625e-05
+i=120 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=0 
+i=121 
+errorlimit*epsrate=1.08037e-07 
+count=0 
+graph.gr[u].size()=10 
+i=122 
+Id: 27461600  Delta: 3.125e-05
+i=123 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=4 
+i=124 
+Id: 28196476  Delta: 1.5625e-05
+i=125 
+Id: 105383  Delta: 1.5625e-05
+i=126 
+Id: 32981235  Delta: 1.5625e-05
+i=127 
+errorlimit*epsrate=3.48121e-07 
+count=0 
+graph.gr[u].size()=1 
+i=128 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=5 
+i=129 
+errorlimit*epsrate=1.08037e-07 
+count=0 
+graph.gr[u].size()=9 
+i=130 
+Id: 30066167  Delta: 1.5625e-05
+i=131 
+Id: 37816276  Delta: 3.125e-05
+i=132 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=3 
+i=133 
+Id: 9537846  Delta: 1.5625e-05
+i=134 
+errorlimit*epsrate=2.28079e-07 
+count=0 
+graph.gr[u].size()=13 
+i=135 
+Id: 35614608  Delta: 3.125e-05
+i=136 
+Id: 38803360  Delta: 1.5625e-05
+i=137 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=20 
+i=138 
+Id: 27003147  Delta: 1.5625e-05
+i=139 
+Id: 29868888  Delta: 1.5625e-05
+i=140 
+Id: 41284082  Delta: 3.125e-05
+i=141 
+Id: 6863970  Delta: 1.5625e-05
+i=142 
+Id: 33748955  Delta: 1.5625e-05
+i=143 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=2 
+i=144 
+Id: 23626008  Delta: 1.5625e-05
+i=145 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=0 
+i=146 
+errorlimit*epsrate=3.36116e-07 
+count=0 
+graph.gr[u].size()=19 
+i=147 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=20 
+i=148 
+Id: 24717595  Delta: 3.125e-05
+i=149 
+Id: 15128973  Delta: 7.8125e-06
+i=150 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=1 
+i=151 
+Id: 40419965  Delta: 7.8125e-06
+i=152 
+errorlimit*epsrate=1.92067e-07 
+count=0 
+graph.gr[u].size()=3 
+i=153 
+Id: 5217603  Delta: 1.5625e-05
+i=154 
+Id: 40828936  Delta: 1.5625e-05
+i=155 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=0 
+i=156 
+0 : 3.10301e-06--1.37659e-06
+1 : 1.72642e-06--2.42016e-07
+2 : 1.4844e-06--2.16705e-07
+3 : 1.2677e-06--2.1408e-07
+4 : 1.05362e-06--1.92293e-07
+5 : 8.61323e-07--1.89939e-07
+6 : 6.71385e-07--1.59024e-07
+7 : 5.12361e-07--1.49908e-07
+8 : 3.62453e-07--1.09859e-07
+9 : 2.52594e-07--4.31375e-08
+10 : 2.09457e-07--3.62234e-08
+11 : 1.73233e-07--3.08268e-08
+12 : 1.42407e-07--2.8499e-08
+13 : 1.13907e-07--2.14668e-08
+14 : 9.24407e-08--1.1149e-08
+0 : 3.18016e-06--3.02231e-06
+1 : 1.5785e-07--4.29648e-08
+0 : 5.13107e-07--1.97026e-07
+1 : 3.16081e-07--1.4777e-07
+Id: 22118436  Delta: 3.125e-05
+i=157 
+errorlimit*epsrate=2.76096e-07 
+count=0 
+graph.gr[u].size()=34 
+i=158 
+errorlimit*epsrate=7.56262e-07 
+count=0 
+graph.gr[u].size()=108 
+i=159 
+Id: 7892666  Delta: 1.5625e-05
+i=160 
+errorlimit*epsrate=1.06837e-06 
+count=0 
+graph.gr[u].size()=97 
+i=161 
+Id: 448825  Delta: 1.5625e-05
+i=162 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=20 
+i=163 
+Id: 1334209  Delta: 1.5625e-05
+i=164 
+Id: 15102056  Delta: 3.125e-05
+i=165 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=4 
+i=166 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=20 
+i=167 
+Id: 23169952  Delta: 1.5625e-05
+i=168 
+Id: 19485401  Delta: 1.5625e-05
+i=169 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=0 
+i=170 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=171 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=6 
+i=172 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=0 
+i=173 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=26 
+i=174 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=0 
+i=175 
+Id: 33428622  Delta: 1.5625e-05
+i=176 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=177 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=178 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=0 
+i=179 
+Id: 34830293  Delta: 1.5625e-05
+i=180 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=20 
+i=181 
+errorlimit*epsrate=1.08037e-07 
+count=0 
+graph.gr[u].size()=20 
+i=182 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=5 
+i=183 
+errorlimit*epsrate=5.04175e-07 
+count=0 
+graph.gr[u].size()=32 
+i=184 
+Id: 19312041  Delta: 1.5625e-05
+i=185 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=0 
+i=186 
+Id: 4982502  Delta: 1.5625e-05
+i=187 
+Id: 39071975  Delta: 1.5625e-05
+i=188 
+Id: 24288599  Delta: 1.5625e-05
+i=189 
+Id: 23520197  Delta: 3.125e-05
+i=190 
+Id: 30400980  Delta: 1.5625e-05
+i=191 
+errorlimit*epsrate=6.12212e-06 
+count=0 
+graph.gr[u].size()=577 
+i=192 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=3 
+i=193 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=4 
+i=194 
+Id: 12702536  Delta: 6.25e-05
+i=195 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=196 
+Id: 38116555  Delta: 1.5625e-05
+i=197 
+Id: 16718908  Delta: 1.5625e-05
+i=198 
+Id: 25097227  Delta: 3.125e-05
+i=199 
+Id: 12047768  Delta: 1.5625e-05
+i=200 
+Id: 2069826  Delta: 1.5625e-05
+i=201 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=1 
+i=202 
+Id: 13313885  Delta: 3.125e-05
+i=203 
+errorlimit*epsrate=4.68162e-07 
+count=0 
+graph.gr[u].size()=604 
+i=204 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=205 
+errorlimit*epsrate=1.80062e-07 
+count=0 
+graph.gr[u].size()=33 
+i=206 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=10 
+i=207 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=1 
+i=208 
+Id: 11679620  Delta: 3.125e-05
+i=209 
+Id: 8933796  Delta: 1.5625e-05
+i=210 
+Id: 23842922  Delta: 1.5625e-05
+i=211 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=0 
+i=212 
+Id: 35305628  Delta: 3.125e-05
+i=213 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=214 
+errorlimit*epsrate=5.04175e-07 
+count=0 
+graph.gr[u].size()=61 
+i=215 
+Id: 33651391  Delta: 3.125e-05
+i=216 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=24 
+i=217 
+Id: 38971896  Delta: 3.125e-05
+i=218 
+Id: 34073364  Delta: 1.5625e-05
+i=219 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=66 
+i=220 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=2 
+i=221 
+Id: 15649076  Delta: 3.125e-05
+i=222 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=7 
+i=223 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=5 
+i=224 
+Id: 14928684  Delta: 1.5625e-05
+i=225 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=17 
+i=226 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=21 
+i=227 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=0 
+i=228 
+Id: 32971882  Delta: 6.25e-05
+i=229 
+Id: 321825  Delta: 3.125e-05
+i=230 
+Id: 33809821  Delta: 3.125e-05
+i=231 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=20 
+i=232 
+Id: 11086173  Delta: 1.5625e-05
+i=233 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=1 
+i=234 
+Id: 15423881  Delta: 3.125e-05
+i=235 
+Id: 15327544  Delta: 1.5625e-05
+i=236 
+Id: 30571575  Delta: 1.5625e-05
+i=237 
+errorlimit*epsrate=3.36116e-07 
+count=0 
+graph.gr[u].size()=20 
+i=238 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=239 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=1 
+i=240 
+Id: 25632586  Delta: 1.5625e-05
+i=241 
+Id: 26937919  Delta: 1.5625e-05
+i=242 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=3 
+i=243 
+errorlimit*epsrate=2.28079e-07 
+count=0 
+graph.gr[u].size()=512 
+i=244 
+Id: 26663698  Delta: 1.5625e-05
+i=245 
+Id: 30615088  Delta: 1.5625e-05
+i=246 
+Id: 24357665  Delta: 1.5625e-05
+i=247 
+Id: 9300068  Delta: 1.5625e-05
+i=248 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=20 
+i=249 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=2 
+i=250 
+Id: 12483055  Delta: 3.125e-05
+i=251 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=33 
+i=252 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=0 
+i=253 
+Id: 31538727  Delta: 1.5625e-05
+i=254 
+Id: 40434916  Delta: 3.125e-05
+i=255 
+Id: 27379692  Delta: 3.125e-05
+i=256 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=22 
+i=257 
+Id: 6605406  Delta: 1.5625e-05
+i=258 
+Id: 659995  Delta: 1.5625e-05
+i=259 
+Id: 39427460  Delta: 3.125e-05
+i=260 
+Id: 27107544  Delta: 1.5625e-05
+i=261 
+Id: 32406192  Delta: 1.5625e-05
+i=262 
+Id: 9454851  Delta: 1.5625e-05
+i=263 
+Id: 36041340  Delta: 3.125e-05
+i=264 
+Id: 14596885  Delta: 3.125e-05
+i=265 
+Id: 21540561  Delta: 6.25e-05
+i=266 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=0 
+i=267 
+Id: 4820584  Delta: 1.5625e-05
+i=268 
+errorlimit*epsrate=1.92067e-07 
+count=0 
+graph.gr[u].size()=9 
+i=269 
+Id: 30348863  Delta: 3.125e-05
+i=270 
+Id: 32394007  Delta: 3.125e-05
+i=271 
+errorlimit*epsrate=2.76096e-07 
+count=0 
+graph.gr[u].size()=11 
+i=272 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=5 
+i=273 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=0 
+i=274 
+Id: 38901972  Delta: 3.125e-05
+i=275 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=276 
+Id: 3625317  Delta: 3.125e-05
+i=277 
+Id: 23713659  Delta: 3.125e-05
+i=278 
+errorlimit*epsrate=1.76461e-06 
+count=0 
+graph.gr[u].size()=258 
+i=279 
+Id: 39223797  Delta: 1.5625e-05
+i=280 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=3 
+i=281 
+Id: 14215220  Delta: 1.5625e-05
+i=282 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=20 
+i=283 
+Id: 34799833  Delta: 1.5625e-05
+i=284 
+errorlimit*epsrate=1.26044e-06 
+count=0 
+graph.gr[u].size()=180 
+i=285 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=0 
+i=286 
+Id: 31427761  Delta: 3.125e-05
+i=287 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=3 
+i=288 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=4 
+i=289 
+Id: 29542764  Delta: 1.5625e-05
+i=290 
+Id: 23719178  Delta: 1.5625e-05
+i=291 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=4 
+i=292 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=1 
+i=293 
+Id: 15408117  Delta: 3.125e-05
+i=294 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=0 
+i=295 
+Id: 14828454  Delta: 1.5625e-05
+i=296 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=4 
+i=297 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=20 
+i=298 
+Id: 27162958  Delta: 3.125e-05
+i=299 
+errorlimit*epsrate=1.80062e-07 
+count=0 
+graph.gr[u].size()=15 
+i=300 
+errorlimit*epsrate=1.56054e-07 
+count=0 
+graph.gr[u].size()=24 
+i=301 
+Id: 22803287  Delta: 3.125e-05
+i=302 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=0 
+i=303 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=4 
+i=304 
+Id: 15966201  Delta: 1.5625e-05
+i=305 
+errorlimit*epsrate=5.40187e-07 
+count=0 
+graph.gr[u].size()=57 
+i=306 
+Id: 36463026  Delta: 3.125e-05
+i=307 
+errorlimit*epsrate=7.56262e-07 
+count=0 
+graph.gr[u].size()=37 
+i=308 
+errorlimit*epsrate=1.08037e-07 
+count=0 
+graph.gr[u].size()=8 
+i=309 
+Id: 12066424  Delta: 3.125e-05
+i=310 
+Id: 5852698  Delta: 3.125e-05
+i=311 
+Id: 12025795  Delta: 3.125e-05
+i=312 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=3 
+i=313 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=0 
+i=314 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=0 
+i=315 
+0 : 5.06921e-08--4.08112e-08
+Id: 39446116  Delta: 3.125e-05
+i=316 
+Id: 30890416  Delta: 1.5625e-05
+i=317 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=3 
+i=318 
+errorlimit*epsrate=2.52087e-07 
+count=0 
+graph.gr[u].size()=344 
+i=319 
+Id: 12685790  Delta: 1.5625e-05
+i=320 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=0 
+i=321 
+errorlimit*epsrate=7.2025e-08 
+count=0 
+graph.gr[u].size()=0 
+i=322 
+Id: 37221347  Delta: 1.5625e-05
+i=323 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=1 
+i=324 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=22 
+i=325 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=2 
+i=326 
+Id: 16345730  Delta: 1.5625e-05
+i=327 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=1 
+i=328 
+Id: 3439753  Delta: 1.5625e-05
+i=329 
+Id: 23456280  Delta: 1.5625e-05
+i=330 
+Id: 29167153  Delta: 1.5625e-05
+i=331 
+Id: 36468950  Delta: 1.5625e-05
+i=332 
+Id: 21776923  Delta: 1.5625e-05
+i=333 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=25 
+i=334 
+Id: 10767819  Delta: 1.5625e-05
+i=335 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=336 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=0 
+i=337 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=2 
+i=338 
+Id: 1945665  Delta: 1.5625e-05
+i=339 
+Id: 12518701  Delta: 1.5625e-05
+i=340 
+errorlimit*epsrate=2.04071e-07 
+count=0 
+graph.gr[u].size()=21 
+i=341 
+Id: 8017561  Delta: 1.5625e-05
+i=342 
+Id: 24003294  Delta: 1.5625e-05
+i=343 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=11 
+i=344 
+errorlimit*epsrate=1.56054e-07 
+count=0 
+graph.gr[u].size()=26 
+i=345 
+errorlimit*epsrate=1.56054e-07 
+count=0 
+graph.gr[u].size()=3 
+i=346 
+Id: 13012442  Delta: 1.5625e-05
+i=347 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=0 
+i=348 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=7 
+i=349 
+errorlimit*epsrate=4.80166e-07 
+count=0 
+graph.gr[u].size()=39 
+i=350 
+Id: 24021441  Delta: 1.5625e-05
+i=351 
+errorlimit*epsrate=1.56054e-07 
+count=0 
+graph.gr[u].size()=12 
+i=352 
+Id: 38218514  Delta: 1.5625e-05
+i=353 
+Id: 24592357  Delta: 1.5625e-05
+i=354 
+errorlimit*epsrate=2.04071e-07 
+count=0 
+graph.gr[u].size()=22 
+i=355 
+Id: 13796972  Delta: 3.125e-05
+i=356 
+Id: 26109049  Delta: 1.5625e-05
+i=357 
+Id: 25091617  Delta: 3.125e-05
+i=358 
+Id: 5985171  Delta: 3.125e-05
+i=359 
+Id: 17717585  Delta: 1.5625e-05
+i=360 
+Id: 10602346  Delta: 1.5625e-05
+i=361 
+Id: 28788458  Delta: 1.5625e-05
+i=362 
+Id: 10463868  Delta: 1.5625e-05
+i=363 
+Id: 23845454  Delta: 1.5625e-05
+i=364 
+Id: 40854882  Delta: 1.5625e-05
+i=365 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=3 
+i=366 
+Id: 34748878  Delta: 3.125e-05
+i=367 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=0 
+i=368 
+Id: 35871249  Delta: 1.5625e-05
+i=369 
+Id: 15428850  Delta: 1.5625e-05
+i=370 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=0 
+i=371 
+Id: 23987065  Delta: 1.5625e-05
+i=372 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=2 
+i=373 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=0 
+i=374 
+Id: 25337122  Delta: 1.5625e-05
+i=375 
+Id: 10997967  Delta: 1.5625e-05
+i=376 
+errorlimit*epsrate=2.16075e-07 
+count=0 
+graph.gr[u].size()=5 
+i=377 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=20 
+i=378 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=906 
+i=379 
+Id: 17112877  Delta: 1.5625e-05
+i=380 
+Id: 5556957  Delta: 1.5625e-05
+i=381 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=20 
+i=382 
+Id: 11234329  Delta: 1.5625e-05
+i=383 
+Id: 4627800  Delta: 1.5625e-05
+i=384 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=385 
+Id: 18805989  Delta: 3.125e-05
+i=386 
+Id: 9791335  Delta: 1.5625e-05
+i=387 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=1 
+i=388 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=0 
+i=389 
+Id: 33827931  Delta: 3.125e-05
+i=390 
+Id: 20751654  Delta: 1.5625e-05
+i=391 
+Id: 22310036  Delta: 3.125e-05
+i=392 
+Id: 18625575  Delta: 3.125e-05
+i=393 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=1 
+i=394 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=1 
+i=395 
+Id: 3102718  Delta: 1.5625e-05
+i=396 
+Id: 12102560  Delta: 1.5625e-05
+i=397 
+Id: 994786  Delta: 1.5625e-05
+i=398 
+Id: 41321232  Delta: 3.125e-05
+i=399 
+Id: 36694918  Delta: 1.5625e-05
+### Timer 
+t=   0  1294.568460  
+t=   5  15.483489  
+t=   6  171.293124  
+t=   8  55.661000  
+t=  11  636.077062  
+t=  12  4.529890  
+t=  13  2.651547  
+t= 100  151.410160  
+Id: 33224070  Delta: 1.5625e-05
+Id: 2558133  Delta: 3.125e-05
+Id: 38566617  Delta: 1.5625e-05
+Id: 39209241  Delta: 1.5625e-05
+Id: 38708030  Delta: 3.125e-05
+Id: 7516733  Delta: 3.125e-05
+0 : 5.73921e-08--3.93708e-08
+Id: 26345469  Delta: 1.5625e-05
+Id: 7519668  Delta: 3.125e-05
+Id: 31362188  Delta: 3.125e-05
+Id: 2328203  Delta: 1.5625e-05
+Id: 616317  Delta: 1.5625e-05
+Id: 2361289  Delta: 1.5625e-05
+Id: 17757053  Delta: 1.5625e-05
+Id: 24603382  Delta: 6.25e-05
+Id: 27698411  Delta: 1.5625e-05
+Id: 5535103  Delta: 1.5625e-05
+Id: 18496341  Delta: 1.5625e-05
+Id: 33255368  Delta: 1.5625e-05
+Id: 35201744  Delta: 1.5625e-05
+Id: 41556454  Delta: 1.5625e-05
+Id: 28841439  Delta: 3.125e-05
+Id: 3340849  Delta: 1.5625e-05
+Id: 33732155  Delta: 1.5625e-05
+Id: 7940863  Delta: 3.125e-05
+Id: 2430967  Delta: 1.5625e-05
+Id: 10705500  Delta: 1.5625e-05
+Id: 29475893  Delta: 3.125e-05
+Id: 14533528  Delta: 1.5625e-05
+Id: 11700286  Delta: 1.5625e-05
+Id: 29144896  Delta: 1.5625e-05
+Id: 28008528  Delta: 3.125e-05
+Id: 3272126  Delta: 1.5625e-05
+Id: 8483111  Delta: 1.5625e-05
+Id: 24922915  Delta: 1.5625e-05
+Id: 19261449  Delta: 3.125e-05
+Id: 5538912  Delta: 3.125e-05
+Id: 9219731  Delta: 1.5625e-05
+Id: 22387000  Delta: 3.125e-05
+Id: 13058580  Delta: 1.5625e-05
+Id: 40581919  Delta: 1.5625e-05
+Id: 24715203  Delta: 1.5625e-05
+Id: 13674897  Delta: 1.5625e-05
+Id: 19723290  Delta: 1.5625e-05
+Id: 19252339  Delta: 3.125e-05
+Id: 15058361  Delta: 1.5625e-05
+Id: 5769472  Delta: 1.5625e-05
+Id: 1567524  Delta: 1.5625e-05
+0 : 1.36987e-07--1.24556e-07
+0 : 1.74358e-07--1.69583e-07
+Id: 10334785  Delta: 1.5625e-05
+Id: 15804922  Delta: 1.5625e-05
+Id: 36769268  Delta: 7.8125e-06
+Id: 10239009  Delta: 1.5625e-05
+Id: 2994132  Delta: 3.125e-05
+Id: 40110118  Delta: 1.5625e-05
+0 : 5.99151e-08--4.62116e-08
+Id: 2318934  Delta: 3.125e-05
+Id: 29367307  Delta: 1.5625e-05
+Id: 19321167  Delta: 3.125e-05
+Id: 31456747  Delta: 1.5625e-05
+Id: 17190971  Delta: 3.125e-05
+Id: 10634777  Delta: 3.125e-05
+Id: 19937115  Delta: 1.5625e-05
+Id: 23115949  Delta: 3.125e-05
+Id: 38643305  Delta: 3.125e-05
+Id: 41641554  Delta: 1.5625e-05
+Id: 31599060  Delta: 1.5625e-05
+Id: 40346303  Delta: 1.5625e-05
+Id: 19250773  Delta: 1.5625e-05
+Id: 13918054  Delta: 1.5625e-05
+Id: 26346116  Delta: 1.5625e-05
+Id: 41637774  Delta: 1.5625e-05
+Id: 26976635  Delta: 1.5625e-05
+0 : 4.23346e-08--9.94566e-09
+1 : 3.23889e-08--8.68792e-09
+Id: 2055887  Delta: 3.125e-05
+Id: 1480829  Delta: 1.5625e-05
+Id: 17431614  Delta: 1.5625e-05
+Id: 21779177  Delta: 1.5625e-05
+Id: 39165480  Delta: 1.5625e-05
+Id: 9270058  Delta: 1.5625e-05
+Id: 4328731  Delta: 1.5625e-05
+Id: 40733004  Delta: 3.125e-05
+Id: 19604843  Delta: 3.125e-05
+0 : 6.14774e-08--3.9373e-08
+Id: 20133654  Delta: 3.125e-05
+Id: 12630125  Delta: 1.5625e-05
+0 : 8.31859e-08--6.12489e-08
+Id: 29843852  Delta: 1.5625e-05
+Id: 41560098  Delta: 3.125e-05
+Id: 11088013  Delta: 1.5625e-05
+Id: 8942868  Delta: 1.5625e-05
+Id: 29275175  Delta: 1.5625e-05
+Id: 30409180  Delta: 3.125e-05
+Id: 40399615  Delta: 1.5625e-05
+Id: 4813916  Delta: 1.5625e-05
+Id: 17824040  Delta: 3.125e-05
+Id: 18684501  Delta: 1.5625e-05
+Id: 4709947  Delta: 1.5625e-05
+Id: 33247427  Delta: 3.125e-05
+Id: 18673825  Delta: 1.5625e-05
+Id: 13089090  Delta: 3.125e-05
+Id: 31941500  Delta: 3.125e-05
+Id: 37924598  Delta: 1.5625e-05
+Id: 27007144  Delta: 1.5625e-05
+Id: 35067698  Delta: 1.5625e-05
+Id: 14690224  Delta: 1.5625e-05
+
+### Timer 
+t=   0  1294.568460  
+t=   5  24.732174  
+t=   6  251.886608  
+t=   8  83.092585  
+t=  11  636.077062  
+t=  12  4.529890  
+t=  13  4.268298  
+t= 100  224.572894  
+[0;31m--------------stop------------2020-08-31 01:47:21[0m
+
+
+

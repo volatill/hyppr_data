@@ -1,0 +1,1178 @@
+[0;32m--------------start------------2020-08-30 12:01:45[0m
+[0;32margs:dynamic-topk --algo partup --epsilon 0.5 --prefix ./data/ --dataset lj --with_idx --baton --beta 1 --query_size 200 --update_size 200 [0m
+action: dynamic-topk
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-topk 
+sub constructor 
+init graph n: 4847571 m: 68993773
+load graph finish 
+init parameters graph.n=4847571 
+finished initing parameters 
+graph.n=4847571 graph.m=68993773 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.06289e-07 
+config.pfail=2.06289e-07 
+config.rmax=3.93553e-09 
+config.omega=7.79835e+08 
+rsum_bound=0.11849 
+errorlimit*epsrate=2.44826e-06 
+reverse_idx.first.occur.m_num=244 
+count=204 
+graph.gr[u].size()=6 
+theta=0.9375 
+Id: 2787765  Delta: 2.06289e-07
+theta=0.9375 
+Id: 1553694  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=21839 
+count=7093 
+graph.gr[u].size()=2 
+errorlimit*epsrate=2.17623e-06 
+reverse_idx.first.occur.m_num=29954 
+count=7404 
+graph.gr[u].size()=15 
+theta=0.8125 
+Id: 683306  Delta: 3.125e-05
+theta=0.8125 
+Id: 4290439  Delta: 1.5625e-05
+errorlimit*epsrate=2.85631e-06 
+reverse_idx.first.occur.m_num=13127 
+count=7927 
+graph.gr[u].size()=21 
+theta=0.75 
+Id: 4788743  Delta: 1.5625e-05
+theta=0.75 
+Id: 3300188  Delta: 0.000125
+theta=0.75 
+Id: 861116  Delta: 3.125e-05
+errorlimit*epsrate=6.80073e-07 
+reverse_idx.first.occur.m_num=62020 
+count=24367 
+graph.gr[u].size()=11 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=6269 
+count=1524 
+graph.gr[u].size()=2 
+theta=0.625 
+Id: 3768162  Delta: 3.125e-05
+errorlimit*epsrate=1.76819e-06 
+reverse_idx.first.occur.m_num=44271 
+count=12342 
+graph.gr[u].size()=12 
+errorlimit*epsrate=6.80073e-07 
+reverse_idx.first.occur.m_num=8036 
+count=2430 
+graph.gr[u].size()=5 
+theta=0.5 
+Id: 2745824  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=30206 
+count=7649 
+graph.gr[u].size()=1 
+theta=0.4375 
+Id: 3978632  Delta: 9.76563e-07
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=35297 
+count=10210 
+graph.gr[u].size()=1 
+theta=0.375 
+Id: 4262206  Delta: 1.5625e-05
+theta=0.375 
+Id: 2956128  Delta: 3.125e-05
+errorlimit*epsrate=8.16088e-07 
+reverse_idx.first.occur.m_num=18714 
+count=5690 
+graph.gr[u].size()=9 
+theta=0.3125 
+Id: 3079563  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=48035 
+count=14880 
+graph.gr[u].size()=1 
+theta=1 
+Id: 231639  Delta: 3.125e-05
+theta=1 
+Id: 1787462  Delta: 3.125e-05
+theta=1 
+Id: 2761285  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=1 
+Id: 4649489  Delta: 1.5625e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=1 
+Id: 2340388  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=24580 
+count=6980 
+graph.gr[u].size()=1 
+errorlimit*epsrate=2.58428e-06 
+reverse_idx.first.occur.m_num=23630 
+count=6598 
+graph.gr[u].size()=17 
+theta=0.875 
+Id: 3274273  Delta: 3.125e-05
+errorlimit*epsrate=2.99232e-06 
+reverse_idx.first.occur.m_num=24574 
+count=8718 
+graph.gr[u].size()=21 
+theta=0.8125 
+Id: 4358931  Delta: 3.125e-05
+errorlimit*epsrate=3.26435e-06 
+reverse_idx.first.occur.m_num=33394 
+count=11243 
+graph.gr[u].size()=20 
+theta=0.75 
+Id: 2111708  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=100002 
+count=30875 
+graph.gr[u].size()=3 
+theta=0.6875 
+Id: 517778  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=3967 
+count=1105 
+graph.gr[u].size()=1 
+theta=0.625 
+Id: 2356860  Delta: 1.5625e-05
+errorlimit*epsrate=9.52102e-07 
+reverse_idx.first.occur.m_num=34603 
+count=4964 
+graph.gr[u].size()=7 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=35226 
+count=9433 
+graph.gr[u].size()=2 
+errorlimit*epsrate=5.44059e-07 
+reverse_idx.first.occur.m_num=48123 
+count=12309 
+graph.gr[u].size()=3 
+theta=0.4375 
+Id: 4200737  Delta: 1.5625e-05
+theta=0.4375 
+Id: 1848796  Delta: 6.25e-05
+errorlimit*epsrate=9.52102e-07 
+reverse_idx.first.occur.m_num=23270 
+count=6049 
+graph.gr[u].size()=6 
+theta=0.375 
+Id: 3476790  Delta: 6.25e-05
+errorlimit*epsrate=4.08044e-07 
+reverse_idx.first.occur.m_num=18569 
+count=5216 
+graph.gr[u].size()=2 
+theta=0.3125 
+Id: 3399247  Delta: 3.125e-05
+theta=0.3125 
+Id: 3956207  Delta: 3.125e-05
+theta=0.3125 
+Id: 982724  Delta: 3.125e-05
+errorlimit*epsrate=2.67949e-05 
+reverse_idx.first.occur.m_num=54236 
+count=11570 
+graph.gr[u].size()=175 
+theta=0.25 
+Id: 929219  Delta: 3.125e-05
+errorlimit*epsrate=2.99232e-06 
+reverse_idx.first.occur.m_num=656 
+count=266 
+graph.gr[u].size()=10 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=36796 
+count=11620 
+graph.gr[u].size()=1 
+theta=0.875 
+Id: 4837331  Delta: 3.125e-05
+errorlimit*epsrate=1.08812e-06 
+reverse_idx.first.occur.m_num=40358 
+count=10377 
+graph.gr[u].size()=10 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=33278 
+count=9184 
+graph.gr[u].size()=1 
+theta=0.75 
+Id: 3770489  Delta: 1.5625e-05
+errorlimit*epsrate=4.08044e-07 
+reverse_idx.first.occur.m_num=19594 
+count=3809 
+graph.gr[u].size()=4 
+errorlimit*epsrate=9.52102e-07 
+reverse_idx.first.occur.m_num=55193 
+count=14053 
+graph.gr[u].size()=7 
+theta=0.625 
+Id: 2473218  Delta: 1.5625e-05
+errorlimit*epsrate=5.03254e-06 
+reverse_idx.first.occur.m_num=33892 
+count=10603 
+graph.gr[u].size()=34 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=3 
+count=3 
+graph.gr[u].size()=2 
+errorlimit*epsrate=8.56892e-06 
+reverse_idx.first.occur.m_num=47468 
+count=12486 
+graph.gr[u].size()=127 
+theta=0.5 
+Id: 673066  Delta: 1.5625e-05
+theta=0.5 
+Id: 3203663  Delta: 1.5625e-05
+errorlimit*epsrate=2.04022e-06 
+reverse_idx.first.occur.m_num=21178 
+count=6129 
+graph.gr[u].size()=11 
+theta=0.4375 
+Id: 2414390  Delta: 3.125e-05
+theta=0.4375 
+Id: 3963559  Delta: 3.125e-05
+theta=0.4375 
+Id: 4064779  Delta: 1.5625e-05
+errorlimit*epsrate=9.52102e-07 
+reverse_idx.first.occur.m_num=9428 
+count=3567 
+graph.gr[u].size()=7 
+errorlimit*epsrate=1.49616e-06 
+reverse_idx.first.occur.m_num=5374 
+count=2525 
+graph.gr[u].size()=9 
+theta=0.3125 
+Id: 1325286  Delta: 1.5625e-05
+errorlimit*epsrate=4.08044e-07 
+reverse_idx.first.occur.m_num=93719 
+count=25321 
+graph.gr[u].size()=9 
+errorlimit*epsrate=6.80073e-07 
+reverse_idx.first.occur.m_num=14393 
+count=4578 
+graph.gr[u].size()=6 
+theta=0.9375 
+Id: 1861812  Delta: 1.5625e-05
+theta=0.9375 
+Id: 3186145  Delta: 3.125e-05
+theta=0.9375 
+Id: 730226  Delta: 3.125e-05
+errorlimit*epsrate=8.16088e-07 
+reverse_idx.first.occur.m_num=35797 
+count=10124 
+graph.gr[u].size()=4 
+theta=0.875 
+Id: 4817940  Delta: 3.125e-05
+theta=0.875 
+Id: 1408442  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=55008 
+count=13486 
+graph.gr[u].size()=2 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+errorlimit*epsrate=2.58428e-06 
+reverse_idx.first.occur.m_num=17997 
+count=7388 
+graph.gr[u].size()=16 
+errorlimit*epsrate=8.16088e-07 
+reverse_idx.first.occur.m_num=25393 
+count=8455 
+graph.gr[u].size()=5 
+theta=0.6875 
+Id: 961865  Delta: 3.125e-05
+theta=0.6875 
+Id: 1748136  Delta: 1.5625e-05
+theta=0.6875 
+Id: 4160033  Delta: 1.5625e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=21670 
+count=6039 
+graph.gr[u].size()=1 
+errorlimit*epsrate=8.16088e-07 
+reverse_idx.first.occur.m_num=16782 
+count=4639 
+graph.gr[u].size()=4 
+errorlimit*epsrate=6.12066e-06 
+reverse_idx.first.occur.m_num=32137 
+count=9043 
+graph.gr[u].size()=42 
+theta=0.5 
+Id: 763783  Delta: 6.25e-05
+errorlimit*epsrate=5.44059e-07 
+reverse_idx.first.occur.m_num=34889 
+count=10654 
+graph.gr[u].size()=3 
+theta=0.4375 
+Id: 4088525  Delta: 1.5625e-05
+errorlimit*epsrate=6.93675e-06 
+reverse_idx.first.occur.m_num=134510 
+count=35211 
+graph.gr[u].size()=121 
+theta=0.375 
+Id: 2586735  Delta: 1.5625e-05
+theta=0.375 
+Id: 275143  Delta: 3.125e-05
+errorlimit*epsrate=2.17623e-06 
+reverse_idx.first.occur.m_num=29383 
+count=7837 
+graph.gr[u].size()=10 
+errorlimit*epsrate=6.25667e-06 
+reverse_idx.first.occur.m_num=27283 
+count=8704 
+graph.gr[u].size()=40 
+theta=0.25 
+Id: 1352662  Delta: 3.125e-05
+errorlimit*epsrate=1.08812e-06 
+reverse_idx.first.occur.m_num=49727 
+count=12642 
+graph.gr[u].size()=8 
+theta=0.9375 
+Id: 3104514  Delta: 6.25e-05
+errorlimit*epsrate=2.99232e-06 
+reverse_idx.first.occur.m_num=34798 
+count=9545 
+graph.gr[u].size()=14 
+theta=0.875 
+Id: 2622308  Delta: 6.25e-05
+theta=0.875 
+Id: 696133  Delta: 3.125e-05
+theta=0.875 
+Id: 96044  Delta: 6.25e-05
+errorlimit*epsrate=1.49616e-06 
+reverse_idx.first.occur.m_num=37897 
+count=13607 
+graph.gr[u].size()=10 
+errorlimit*epsrate=1.22413e-06 
+reverse_idx.first.occur.m_num=144984 
+count=20419 
+graph.gr[u].size()=28 
+errorlimit*epsrate=2.72029e-06 
+reverse_idx.first.occur.m_num=9183 
+count=5874 
+graph.gr[u].size()=14 
+theta=0.6875 
+Id: 1241833  Delta: 3.125e-05
+theta=0.6875 
+Id: 4085686  Delta: 3.125e-05
+theta=0.6875 
+Id: 4052251  Delta: 3.125e-05
+errorlimit*epsrate=4.08044e-07 
+reverse_idx.first.occur.m_num=30815 
+count=9727 
+graph.gr[u].size()=2 
+theta=0.625 
+Id: 2224557  Delta: 3.125e-05
+theta=0.625 
+Id: 167334  Delta: 3.125e-05
+errorlimit*epsrate=1.63218e-06 
+reverse_idx.first.occur.m_num=27246 
+count=8612 
+graph.gr[u].size()=11 
+theta=0.5625 
+Id: 4042011  Delta: 3.125e-05
+theta=0.5625 
+Id: 1137781  Delta: 3.125e-05
+theta=0.5625 
+Id: 2630857  Delta: 3.125e-05
+theta=0.5625 
+Id: 4705382  Delta: 7.8125e-06
+theta=0.5625 
+Id: 4341444  Delta: 7.8125e-06
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=87761 
+count=26454 
+graph.gr[u].size()=8 
+theta=0.5 
+Id: 187981  Delta: 3.125e-05
+errorlimit*epsrate=5.71261e-06 
+reverse_idx.first.occur.m_num=42960 
+count=17990 
+graph.gr[u].size()=50 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+errorlimit*epsrate=8.16088e-07 
+reverse_idx.first.occur.m_num=29673 
+count=5518 
+graph.gr[u].size()=6 
+theta=0.375 
+Id: 3811676  Delta: 3.125e-05
+theta=0.375 
+Id: 3548957  Delta: 3.125e-05
+errorlimit*epsrate=2.85631e-06 
+reverse_idx.first.occur.m_num=17261 
+count=3735 
+graph.gr[u].size()=13 
+theta=0.3125 
+Id: 1513267  Delta: 3.125e-05
+errorlimit*epsrate=5.44059e-07 
+reverse_idx.first.occur.m_num=40924 
+count=11488 
+graph.gr[u].size()=4 
+theta=0.25 
+Id: 825917  Delta: 3.125e-05
+theta=0.25 
+Id: 1877836  Delta: 3.125e-05
+theta=1 
+Id: 2243493  Delta: 3.125e-05
+errorlimit*epsrate=8.16088e-07 
+reverse_idx.first.occur.m_num=32097 
+count=8234 
+graph.gr[u].size()=7 
+errorlimit*epsrate=1.9042e-06 
+reverse_idx.first.occur.m_num=12081 
+count=4241 
+graph.gr[u].size()=11 
+theta=0.875 
+Id: 786592  Delta: 3.125e-05
+errorlimit*epsrate=8.16088e-07 
+reverse_idx.first.occur.m_num=59494 
+count=14010 
+graph.gr[u].size()=5 
+theta=0.8125 
+Id: 3286278  Delta: 3.125e-05
+errorlimit*epsrate=6.80073e-07 
+reverse_idx.first.occur.m_num=14002 
+count=3227 
+graph.gr[u].size()=2 
+theta=0.75 
+Id: 3205358  Delta: 3.125e-05
+theta=0.75 
+Id: 2534728  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+errorlimit*epsrate=2.17623e-06 
+reverse_idx.first.occur.m_num=36448 
+count=13323 
+graph.gr[u].size()=12 
+theta=0.6875 
+Id: 2589045  Delta: 3.125e-05
+theta=0.6875 
+Id: 3959446  Delta: 3.125e-05
+errorlimit*epsrate=1.76819e-06 
+reverse_idx.first.occur.m_num=29608 
+count=11595 
+graph.gr[u].size()=11 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=25200 
+count=4592 
+graph.gr[u].size()=2 
+errorlimit*epsrate=4.08044e-07 
+reverse_idx.first.occur.m_num=26270 
+count=7710 
+graph.gr[u].size()=2 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=29810 
+count=7421 
+graph.gr[u].size()=1 
+errorlimit*epsrate=3.26435e-06 
+reverse_idx.first.occur.m_num=44025 
+count=16859 
+graph.gr[u].size()=18 
+errorlimit*epsrate=5.44059e-07 
+reverse_idx.first.occur.m_num=44289 
+count=13131 
+graph.gr[u].size()=4 
+theta=0.3125 
+Id: 1765987  Delta: 3.125e-05
+errorlimit*epsrate=1.63218e-06 
+reverse_idx.first.occur.m_num=28003 
+count=7095 
+graph.gr[u].size()=12 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=44313 
+count=10004 
+graph.gr[u].size()=3 
+theta=0.9375 
+Id: 328210  Delta: 3.125e-05
+errorlimit*epsrate=1.63218e-06 
+reverse_idx.first.occur.m_num=9808 
+count=3092 
+graph.gr[u].size()=7 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=29917 
+count=8442 
+graph.gr[u].size()=2 
+errorlimit*epsrate=2.99232e-06 
+reverse_idx.first.occur.m_num=24137 
+count=5915 
+graph.gr[u].size()=13 
+theta=0.75 
+Id: 4224894  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-06 
+reverse_idx.first.occur.m_num=30699 
+count=8727 
+graph.gr[u].size()=9 
+theta=0.6875 
+Id: 3118649  Delta: 3.125e-05
+theta=0.6875 
+Id: 3423029  Delta: 1.5625e-05
+theta=0.6875 
+Id: 1999632  Delta: 3.125e-05
+theta=0.6875 
+Id: 3805088  Delta: 3.125e-05
+theta=0.6875 
+Id: 3519073  Delta: 3.125e-05
+errorlimit*epsrate=9.11298e-06 
+reverse_idx.first.occur.m_num=2915 
+count=419 
+graph.gr[u].size()=22 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=12418 
+count=4195 
+graph.gr[u].size()=1 
+errorlimit*epsrate=2.17623e-06 
+reverse_idx.first.occur.m_num=52701 
+count=14429 
+graph.gr[u].size()=18 
+theta=0.5 
+Id: 3241465  Delta: 3.125e-05
+errorlimit*epsrate=1.76819e-06 
+reverse_idx.first.occur.m_num=64470 
+count=16032 
+graph.gr[u].size()=12 
+theta=0.4375 
+Id: 3043203  Delta: 3.125e-05
+theta=0.4375 
+Id: 2714058  Delta: 6.25e-05
+theta=0.4375 
+Id: 608756  Delta: 3.125e-05
+theta=0.4375 
+Id: 3200842  Delta: 3.125e-05
+theta=0.4375 
+Id: 1898804  Delta: 3.125e-05
+errorlimit*epsrate=5.84863e-06 
+reverse_idx.first.occur.m_num=19856 
+count=4784 
+graph.gr[u].size()=21 
+theta=0.375 
+Id: 1746537  Delta: 6.25e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=49468 
+count=14691 
+graph.gr[u].size()=2 
+errorlimit*epsrate=1.36015e-06 
+reverse_idx.first.occur.m_num=21791 
+count=5910 
+graph.gr[u].size()=4 
+errorlimit*epsrate=1.36015e-06 
+reverse_idx.first.occur.m_num=35464 
+count=11661 
+graph.gr[u].size()=11 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=21167 
+count=5516 
+graph.gr[u].size()=2 
+theta=0.875 
+Id: 984128  Delta: 3.125e-05
+theta=0.875 
+Id: 1746920  Delta: 3.125e-05
+theta=0.875 
+Id: 1240410  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=0.875 
+Id: 1172109  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=20314 
+count=9379 
+graph.gr[u].size()=1 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=29768 
+count=7446 
+graph.gr[u].size()=1 
+theta=0.75 
+Id: 711025  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=29086 
+count=7318 
+graph.gr[u].size()=1 
+theta=0.6875 
+Id: 4779672  Delta: 7.8125e-06
+theta=0.6875 
+Id: 2685376  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+errorlimit*epsrate=2.44826e-05 
+reverse_idx.first.occur.m_num=64769 
+count=17575 
+graph.gr[u].size()=183 
+theta=0.625 
+Id: 1536943  Delta: 3.125e-05
+errorlimit*epsrate=1.9042e-06 
+reverse_idx.first.occur.m_num=31608 
+count=8499 
+graph.gr[u].size()=11 
+theta=0.5625 
+Id: 1800242  Delta: 3.125e-05
+errorlimit*epsrate=1.56417e-05 
+reverse_idx.first.occur.m_num=1697 
+count=819 
+graph.gr[u].size()=46 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=11383 
+count=3442 
+graph.gr[u].size()=1 
+errorlimit*epsrate=1.64578e-05 
+reverse_idx.first.occur.m_num=107547 
+count=22293 
+graph.gr[u].size()=150 
+theta=0.375 
+Id: 71603  Delta: 3.125e-05
+theta=0.375 
+Id: 2313840  Delta: 3.125e-05
+theta=0.375 
+Id: 238950  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=0.375 
+Id: 3267266  Delta: 1.5625e-05
+theta=0.375 
+Id: 997  Delta: 3.125e-05
+theta=0.375 
+Id: 2827995  Delta: 6.25e-05
+theta=0.375 
+Id: 2379141  Delta: 3.125e-05
+errorlimit*epsrate=1.08812e-06 
+reverse_idx.first.occur.m_num=27882 
+count=9500 
+graph.gr[u].size()=8 
+theta=0.3125 
+Id: 1766985  Delta: 1.5625e-05
+theta=0.3125 
+Id: 3146510  Delta: 3.125e-05
+theta=0.3125 
+Id: 1756464  Delta: 3.125e-05
+theta=0.3125 
+Id: 28368  Delta: 3.125e-05
+theta=0.3125 
+Id: 1712273  Delta: 3.125e-05
+theta=0.3125 
+Id: 3756096  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=14787 
+count=3262 
+graph.gr[u].size()=1 
+theta=1 
+Id: 3833456  Delta: 3.125e-05
+errorlimit*epsrate=2.85631e-06 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+errorlimit*epsrate=5.44059e-06 
+reverse_idx.first.occur.m_num=57200 
+count=16755 
+graph.gr[u].size()=39 
+theta=0.9375 
+Id: 374080  Delta: 3.125e-05
+theta=0.9375 
+Id: 2140295  Delta: 1.5625e-05
+theta=0.9375 
+Id: 2029088  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=0.9375 
+Id: 3088139  Delta: 1.5625e-05
+theta=0.9375 
+Id: 2749052  Delta: 3.125e-05
+theta=0.9375 
+Id: 382359  Delta: 6.25e-05
+theta=0.9375 
+Id: 129677  Delta: 3.125e-05
+theta=0.9375 
+Id: 4485894  Delta: 3.125e-05
+theta=0.9375 
+Id: 1356792  Delta: 3.125e-05
+theta=0.9375 
+Id: 1876597  Delta: 3.125e-05
+theta=0.9375 
+Id: 869039  Delta: 6.25e-05
+theta=0.9375 
+Id: 2528901  Delta: 6.25e-05
+errorlimit*epsrate=6.80073e-07 
+reverse_idx.first.occur.m_num=33157 
+count=7531 
+graph.gr[u].size()=5 
+theta=0.875 
+Id: 2587623  Delta: 1.5625e-05
+errorlimit*epsrate=2.31225e-06 
+reverse_idx.first.occur.m_num=13025 
+count=6063 
+graph.gr[u].size()=9 
+theta=0.8125 
+Id: 801140  Delta: 6.25e-05
+theta=0.8125 
+Id: 357011  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=36224 
+count=10013 
+graph.gr[u].size()=2 
+errorlimit*epsrate=4.08044e-07 
+reverse_idx.first.occur.m_num=20853 
+count=6144 
+graph.gr[u].size()=3 
+errorlimit*epsrate=2.58428e-06 
+reverse_idx.first.occur.m_num=25267 
+count=10049 
+graph.gr[u].size()=18 
+theta=0.625 
+Id: 4114871  Delta: 1.5625e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=53388 
+count=13511 
+graph.gr[u].size()=1 
+theta=0.5625 
+Id: 2601383  Delta: 3.125e-05
+theta=0.5625 
+Id: 428614  Delta: 7.8125e-06
+errorlimit*epsrate=3.94442e-06 
+reverse_idx.first.occur.m_num=44 
+count=44 
+graph.gr[u].size()=37 
+theta=0.5 
+Id: 1581140  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=20408 
+count=5065 
+graph.gr[u].size()=1 
+theta=0.4375 
+Id: 2830638  Delta: 3.125e-05
+errorlimit*epsrate=2.7747e-05 
+reverse_idx.first.occur.m_num=57251 
+count=13237 
+graph.gr[u].size()=139 
+theta=0.375 
+Id: 3695880  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=27504 
+count=6563 
+graph.gr[u].size()=1 
+theta=0.3125 
+Id: 1572442  Delta: 3.125e-05
+errorlimit*epsrate=3.26435e-06 
+reverse_idx.first.occur.m_num=48083 
+count=18458 
+graph.gr[u].size()=26 
+theta=1 
+Id: 801367  Delta: 6.25e-05
+theta=1 
+Id: 1217755  Delta: 3.125e-05
+errorlimit*epsrate=9.52102e-07 
+reverse_idx.first.occur.m_num=18455 
+count=3811 
+graph.gr[u].size()=5 
+theta=0.9375 
+Id: 3339427  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=0.9375 
+Id: 3938183  Delta: 3.125e-05
+errorlimit*epsrate=2.04022e-06 
+reverse_idx.first.occur.m_num=36950 
+count=11242 
+graph.gr[u].size()=12 
+theta=0.875 
+Id: 2974220  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=99177 
+count=23476 
+graph.gr[u].size()=4 
+errorlimit*epsrate=1.08812e-06 
+reverse_idx.first.occur.m_num=6432 
+count=2064 
+graph.gr[u].size()=5 
+theta=0.75 
+Id: 3358101  Delta: 1.5625e-05
+errorlimit*epsrate=3.67239e-06 
+reverse_idx.first.occur.m_num=21787 
+count=7251 
+graph.gr[u].size()=22 
+errorlimit*epsrate=2.31225e-06 
+reverse_idx.first.occur.m_num=29837 
+count=8538 
+graph.gr[u].size()=18 
+theta=0.625 
+Id: 793190  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=71364 
+count=23718 
+graph.gr[u].size()=2 
+theta=0.5625 
+Id: 1873050  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-06 
+reverse_idx.first.occur.m_num=58787 
+count=14667 
+graph.gr[u].size()=16 
+errorlimit*epsrate=2.33945e-05 
+reverse_idx.first.occur.m_num=65759 
+count=19132 
+graph.gr[u].size()=193 
+theta=0.4375 
+Id: 2343986  Delta: 3.125e-05
+theta=0.4375 
+Id: 1167271  Delta: 3.125e-05
+theta=0.4375 
+Id: 4003651  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-06 
+reverse_idx.first.occur.m_num=7759 
+count=2433 
+graph.gr[u].size()=11 
+errorlimit*epsrate=2.58428e-06 
+reverse_idx.first.occur.m_num=30292 
+count=9141 
+graph.gr[u].size()=19 
+theta=0.3125 
+Id: 4363380  Delta: 3.125e-05
+theta=0.3125 
+Id: 4245715  Delta: 3.125e-05
+errorlimit*epsrate=1.22413e-06 
+reverse_idx.first.occur.m_num=11169 
+count=3005 
+graph.gr[u].size()=9 
+theta=1 
+Id: 1895437  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=50139 
+count=11859 
+graph.gr[u].size()=1 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=0.9375 
+Id: 4736044  Delta: 3.125e-05
+errorlimit*epsrate=9.72505e-05 
+reverse_idx.first.occur.m_num=4992 
+count=1087 
+graph.gr[u].size()=133 
+errorlimit*epsrate=5.44059e-07 
+reverse_idx.first.occur.m_num=242000 
+count=67424 
+graph.gr[u].size()=27 
+theta=0.8125 
+Id: 4375392  Delta: 3.125e-05
+errorlimit*epsrate=1.08812e-05 
+reverse_idx.first.occur.m_num=50646 
+count=12013 
+graph.gr[u].size()=68 
+theta=0.75 
+Id: 1533760  Delta: 3.125e-05
+theta=0.75 
+Id: 1245266  Delta: 3.125e-05
+theta=0.75 
+Id: 1394723  Delta: 3.125e-05
+theta=0.75 
+Id: 2402799  Delta: 3.125e-05
+theta=0.75 
+Id: 3774167  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+theta=0.75 
+Id: 3972651  Delta: 3.125e-05
+errorlimit*epsrate=2.04022e-06 
+reverse_idx.first.occur.m_num=62844 
+count=16845 
+graph.gr[u].size()=20 
+errorlimit*epsrate=9.52102e-07 
+reverse_idx.first.occur.m_num=60979 
+count=16110 
+graph.gr[u].size()=9 
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=37108 
+count=11126 
+graph.gr[u].size()=4 
+theta=0.5625 
+Id: 3203940  Delta: 3.125e-05
+theta=0.5625 
+Id: 4121484  Delta: 3.125e-05
+theta=0.5625 
+Id: 3239951  Delta: 3.125e-05
+theta=0.5625 
+Id: 948057  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=29760 
+count=7294 
+graph.gr[u].size()=1 
+errorlimit*epsrate=5.44059e-07 
+reverse_idx.first.occur.m_num=1 
+count=1 
+graph.gr[u].size()=0 
+errorlimit*epsrate=2.58428e-06 
+reverse_idx.first.occur.m_num=30123 
+count=10324 
+graph.gr[u].size()=18 
+theta=0.4375 
+Id: 4550098  Delta: 6.25e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=49660 
+count=13909 
+graph.gr[u].size()=1 
+errorlimit*epsrate=3.94442e-06 
+reverse_idx.first.occur.m_num=33478 
+count=10039 
+graph.gr[u].size()=31 
+theta=0.3125 
+Id: 4811396  Delta: 7.8125e-06
+errorlimit*epsrate=6.80073e-07 
+reverse_idx.first.occur.m_num=25578 
+count=6756 
+graph.gr[u].size()=5 
+theta=0.25 
+Id: 3769000  Delta: 3.125e-05
+theta=0.25 
+Id: 3388713  Delta: 3.125e-05
+theta=1 
+Id: 1536268  Delta: 3.125e-05
+theta=1 
+Id: 4560672  Delta: 3.125e-05
+theta=1 
+Id: 4596773  Delta: 1.5625e-05
+theta=1 
+Id: 18429  Delta: 3.125e-05
+theta=1 
+Id: 3651284  Delta: 3.125e-05
+theta=1 
+Id: 2713727  Delta: 3.125e-05
+theta=1 
+Id: 3366835  Delta: 3.125e-05
+theta=1 
+Id: 4444475  Delta: 1.5625e-05
+theta=1 
+Id: 4586778  Delta: 1.5625e-05
+theta=1 
+Id: 863251  Delta: 6.25e-05
+errorlimit*epsrate=4.89653e-06 
+reverse_idx.first.occur.m_num=48061 
+count=12475 
+graph.gr[u].size()=32 
+theta=0.9375 
+Id: 754480  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=6533 
+count=2041 
+graph.gr[u].size()=3 
+theta=0.875 
+Id: 3733163  Delta: 3.125e-05
+theta=0.875 
+Id: 369365  Delta: 1.5625e-05
+theta=0.875 
+Id: 142929  Delta: 3.125e-05
+errorlimit*epsrate=2.04022e-06 
+reverse_idx.first.occur.m_num=31816 
+count=11053 
+graph.gr[u].size()=15 
+errorlimit*epsrate=4.08044e-07 
+reverse_idx.first.occur.m_num=25179 
+count=16361 
+graph.gr[u].size()=2 
+theta=0.75 
+Id: 781029  Delta: 3.125e-05
+theta=0.75 
+Id: 257838  Delta: 1.5625e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=30741 
+count=7558 
+graph.gr[u].size()=1 
+errorlimit*epsrate=1.49616e-06 
+reverse_idx.first.occur.m_num=45133 
+count=18079 
+graph.gr[u].size()=17 
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=48234 
+count=12130 
+graph.gr[u].size()=2 
+theta=0.5625 
+Id: 4508626  Delta: 1.5625e-05
+theta=0.5625 
+Id: 2314789  Delta: 3.125e-05
+errorlimit*epsrate=1.36015e-07 
+reverse_idx.first.occur.m_num=24615 
+count=8089 
+graph.gr[u].size()=1 
+theta=0.5 
+Id: 1503104  Delta: 6.25e-05
+theta=0.5 
+Id: 1055778  Delta: 3.125e-05
+errorlimit*epsrate=5.16856e-06 
+reverse_idx.first.occur.m_num=36113 
+count=10305 
+graph.gr[u].size()=26 
+theta=0.4375 
+Id: 4707894  Delta: 1.5625e-05
+theta=0.4375 
+Id: 420006  Delta: 6.25e-05
+errorlimit*epsrate=5.44059e-07 
+reverse_idx.first.occur.m_num=27107 
+count=7952 
+graph.gr[u].size()=4 
+errorlimit*epsrate=2.08102e-05 
+reverse_idx.first.occur.m_num=12627 
+count=1997 
+graph.gr[u].size()=64 
+theta=0.3125 
+Id: 180859  Delta: 3.125e-05
+theta=0.3125 
+Id: 3054568  Delta: 3.125e-05
+theta=0.3125 
+Id: 4541490  Delta: 3.125e-05
+theta=0.3125 
+Id: 3411115  Delta: 3.125e-05
+errorlimit*epsrate=2.72029e-07 
+reverse_idx.first.occur.m_num=42273 
+count=10951 
+graph.gr[u].size()=2 
+theta=1 
+Id: 4002625  Delta: 3.125e-05
+theta=1 
+Id: 4234322  Delta: 1.5625e-05
+theta=1 
+Id: 3365246  Delta: 3.90625e-06
+theta=1 
+Id: 2914359  Delta: 3.125e-05
+theta=1 
+Id: 2765769  Delta: 1.5625e-05
+### Timer 
+t=   0  1948.544604  
+t=   5  5.145189  
+t=   6  34.750219  
+t=   8  7.571222  
+t=  11  13.172318  
+t=  12  56.674626  
+t=  13  1744.903848  
+t= 100  32.049604  
+Id: 44248  Delta: 1.5625e-05
+Id: 2627460  Delta: 3.125e-05
+Id: 2514972  Delta: 1.5625e-05
+Id: 52982  Delta: 3.125e-05
+Id: 1421479  Delta: 3.125e-05
+Id: 381128  Delta: 3.125e-05
+Id: 3419818  Delta: 3.125e-05
+Id: 1018383  Delta: 1.5625e-05
+Id: 110640  Delta: 3.125e-05
+Id: 4283069  Delta: 7.8125e-06
+Id: 1763168  Delta: 1.5625e-05
+Id: 3843803  Delta: 3.125e-05
+Id: 4652434  Delta: 3.125e-05
+Id: 1896402  Delta: 3.125e-05
+Id: 4615137  Delta: 3.125e-05
+Id: 53006  Delta: 6.25e-05
+Id: 1557457  Delta: 3.125e-05
+Id: 2072661  Delta: 3.125e-05
+Id: 1556111  Delta: 3.125e-05
+Id: 2603540  Delta: 3.125e-05
+Id: 1932984  Delta: 1.5625e-05
+Id: 1976117  Delta: 3.125e-05
+Id: 2774704  Delta: 3.125e-05
+Id: 130286  Delta: 3.125e-05
+Id: 1670036  Delta: 6.25e-05
+Id: 1338249  Delta: 1.5625e-05
+Id: 4123216  Delta: 3.125e-05
+Id: 1047092  Delta: 3.125e-05
+Id: 4693800  Delta: 3.125e-05
+Id: 2190004  Delta: 3.125e-05
+Id: 3812862  Delta: 1.5625e-05
+Id: 4738048  Delta: 3.125e-05
+Id: 4817464  Delta: 3.90625e-06
+Id: 1480263  Delta: 6.25e-05
+Id: 4781335  Delta: 6.25e-05
+Id: 1391372  Delta: 3.125e-05
+Id: 1851696  Delta: 3.125e-05
+Id: 3353582  Delta: 3.125e-05
+Id: 2400060  Delta: 3.125e-05
+Id: 1962337  Delta: 7.8125e-06
+Id: 2779385  Delta: 1.5625e-05
+Id: 4153533  Delta: 3.125e-05
+Id: 948874  Delta: 3.125e-05
+Id: 2574553  Delta: 1.5625e-05
+Id: 1202364  Delta: 6.25e-05
+Id: 706746  Delta: 3.125e-05
+Id: 2627560  Delta: 3.125e-05
+Id: 2759821  Delta: 6.25e-05
+Id: 2779407  Delta: 1.5625e-05
+Id: 4183671  Delta: 1.5625e-05
+Id: 506096  Delta: 3.125e-05
+Id: 4702696  Delta: 3.125e-05
+Id: 1302522  Delta: 3.125e-05
+Id: 3280800  Delta: 3.125e-05
+Id: 4832982  Delta: 1.95313e-06
+Id: 2962863  Delta: 3.125e-05
+Id: 4609354  Delta: 1.95313e-06
+Id: 4108627  Delta: 1.5625e-05
+Id: 4009955  Delta: 1.5625e-05
+Id: 4455583  Delta: 3.125e-05
+Id: 1441365  Delta: 3.125e-05
+Id: 2975246  Delta: 1.5625e-05
+Id: 4336365  Delta: 3.90625e-06
+Id: 1401563  Delta: 3.125e-05
+Id: 4445814  Delta: 3.125e-05
+Id: 4270130  Delta: 1.5625e-05
+Id: 2783241  Delta: 6.25e-05
+Id: 1449940  Delta: 3.125e-05
+Id: 2776141  Delta: 3.125e-05
+Id: 326035  Delta: 3.125e-05
+Id: 3402582  Delta: 7.8125e-06
+Id: 698261  Delta: 3.125e-05
+Id: 4479569  Delta: 3.125e-05
+Id: 4341761  Delta: 1.5625e-05
+Id: 3272814  Delta: 3.125e-05
+Id: 824667  Delta: 3.125e-05
+Id: 200936  Delta: 3.125e-05
+Id: 1052803  Delta: 3.125e-05
+Id: 3584489  Delta: 3.125e-05
+Id: 2970648  Delta: 3.125e-05
+Id: 388903  Delta: 6.25e-05
+Id: 4080890  Delta: 6.25e-05
+Id: 2816078  Delta: 3.125e-05
+Id: 1681730  Delta: 1.5625e-05
+Id: 2514119  Delta: 3.125e-05
+Id: 2791794  Delta: 3.125e-05
+Id: 4644593  Delta: 1.95313e-06
+Id: 2275903  Delta: 1.5625e-05
+Id: 2043155  Delta: 3.125e-05
+Id: 3806978  Delta: 3.125e-05
+Id: 1874220  Delta: 3.125e-05
+Id: 3474825  Delta: 3.125e-05
+Id: 1924958  Delta: 3.125e-05
+Id: 1353320  Delta: 3.125e-05
+Id: 28818  Delta: 1.5625e-05
+Id: 1523202  Delta: 1.5625e-05
+Id: 766184  Delta: 3.125e-05
+Id: 2812059  Delta: 1.5625e-05
+Id: 2963447  Delta: 7.8125e-06
+Id: 3532630  Delta: 7.8125e-06
+
+### Timer 
+t=   0  1948.544604  
+t=   5  8.599881  
+t=   6  52.445500  
+t=   8  12.127016  
+t=  11  13.172318  
+t=  12  56.674626  
+t=  13  1744.903848  
+t= 100  51.646931  
+[0;31m--------------stop------------2020-08-30 12:36:11[0m
+
+
+

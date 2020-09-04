@@ -1,0 +1,95 @@
+[0;32m--------------start------------2020-08-31 00:41:27[0m
+[0;32margs:dynamic-topk --algo partup --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --baton --beta 1 --query_size 200 --update_size 200 [0m
+action: dynamic-topk
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-topk 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+init parameters graph.n=41652230 
+finished initing parameters 
+graph.n=41652230 graph.m=1468364884 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 
+rsum_bound=0.258876 
+errorlimit*epsrate=5.07176e-08 
+reverse_idx.first.occur.m_num=46 
+count=10 
+graph.gr[u].size()=1 
+theta=0.9375 
+Id: 11925756  Delta: 1.5625e-05
+theta=0.9375 
+Id: 24713556  Delta: 3.125e-05
+errorlimit*epsrate=1.01435e-07 
+reverse_idx.first.occur.m_num=913056 
+count=189512 
+graph.gr[u].size()=19 
+errorlimit*epsrate=8.69444e-08 
+reverse_idx.first.occur.m_num=24592 
+count=929 
+graph.gr[u].size()=20 
+errorlimit*epsrate=7.24537e-09 
+reverse_idx.first.occur.m_num=1006 
+count=78 
+graph.gr[u].size()=1 
+theta=0.75 
+Id: 4047751  Delta: 1.5625e-05
+theta=0.75 
+Id: 28058100  Delta: 3.125e-05
+errorlimit*epsrate=7.24537e-09 
+reverse_idx.first.occur.m_num=132493 
+count=34314 
+graph.gr[u].size()=1 
+errorlimit*epsrate=3.18796e-07 
+reverse_idx.first.occur.m_num=43182 
+count=9499 
+graph.gr[u].size()=20 
+theta=0.625 
+Id: 39945745  Delta: 1.5625e-05
+errorlimit*epsrate=1.59398e-07 
+reverse_idx.first.occur.m_num=756706 
+count=189956 
+graph.gr[u].size()=14 
+theta=0.5625 
+Id: 37992801  Delta: 1.5625e-05
+theta=0.5625 
+Id: 23939786  Delta: 1.5625e-05
+errorlimit*epsrate=2.17361e-08 
+reverse_idx.first.occur.m_num=2 
+count=2 
+graph.gr[u].size()=1 
+errorlimit*epsrate=1.66643e-07 
+reverse_idx.first.occur.m_num=42 
+count=12 
+graph.gr[u].size()=21 
+errorlimit*epsrate=3.62268e-08 
+reverse_idx.first.occur.m_num=5 
+count=5 
+graph.gr[u].size()=3 
+errorlimit*epsrate=3.62268e-08 
+reverse_idx.first.occur.m_num=88330 
+count=24976 
+graph.gr[u].size()=4 
+theta=0.375 
+Id: 16019720  Delta: 1.5625e-05
+errorlimit*epsrate=7.9699e-08 
+reverse_idx.first.occur.m_num=13484 
+count=2170 
+graph.gr[u].size()=2 
+errorlimit*epsrate=6.52083e-08 
+reverse_idx.first.occur.m_num=2 
+count=2 
+graph.gr[u].size()=1 
+theta=0.3125 
+Id: 4298613  Delta: 1.5625e-05
+errorlimit*epsrate=1.44907e-08 
+reverse_idx.first.occur.m_num=38497 
+count=7052 
+graph.gr[u].size()=1 
+theta=0.25 
+Id: 21100026  Delta: 3.125e-05
