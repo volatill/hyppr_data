@@ -1,0 +1,30 @@
+fora
+0.26273	1.15856e-08	0.999972	
+end
+baton
+0.273285	1.39157e-08	0.999966	
+end
+foran
+partup
+0.227094	1.04313e-08	0.999984	
+end
+lazyup
+0.237302	1.11853e-08	0.999981	
+end
+resacc
+0.264107	5.09186e-08	0.999971	
+end
+fora_topk
+0.000171305	3.96651e-09	0.992587	
+end
+baton_topk
+foran_topk
+0.000171372	4.10254e-09	0.999999	
+end
+partup_topk
+4.85069e-06	6.22212e-09	0.992587	
+end
+lazyup_topk
+4.85609e-06	6.22823e-09	0.992587	
+end
+resacc_topk
