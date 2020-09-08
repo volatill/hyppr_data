@@ -1,0 +1,17 @@
+[0;32m--------------start------------2020-09-08 05:48:41[0m
+[0;32margs:dynamic-onehop --algo baton --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --beta 1 --query_size 200 --update_size 200 [0m
+action: dynamic-onehop
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-onehop 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+finished initing parameters 
+graph.n=41652230 graph.m=1468364884 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 

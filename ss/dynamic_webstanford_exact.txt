@@ -1,0 +1,31 @@
+[0;32m--------------start------------2020-08-31 20:21:11[0m
+[0;32margs:dynamic-ss --algo baton --epsilon 0.05 --prefix ./data/ --dataset webstanford --baton --beta 1 --query_size 200 --update_size 200 --exact [0m
+action: dynamic-ss
+config.epsilon=0.05 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 281904 m: 2312497
+load graph finish 
+init parameters graph.n=281904 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=281904 graph.m=2312497 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=3.54731e-06 
+config.pfail=3.54731e-06 
+config.rmax=9.82503e-09 
+config.omega=3.06115e+09 
+### Timer 
+t=   0  0.000122  
+t=  13  0.000098  
+
+trw:56369531
+hrw:0
+### Timer 
+t=   0  0.000122  
+t=   3  12.285512  
+t=   5  3.597444  
+t=   6  8.635558  
+t=  13  0.000098  

@@ -1,0 +1,4 @@
+[0;32m--------------start------------2020-08-22 01:23:25[0m
+[0;32margs:dynamic-ss --algo fora --epsilon twitter --prefix ./data/ --dataset --with_idx --beta --query_size --update_size [0m
+action: dynamic-ss
+config.epsilon=0 

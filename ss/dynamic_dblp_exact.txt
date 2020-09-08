@@ -1,0 +1,31 @@
+[0;32m--------------start------------2020-08-22 01:37:44[0m
+[0;32margs:dynamic-ss --algo baton --epsilon 0.001 --prefix ./data/ --dataset dblp --baton --beta 1 --query_size 200 --update_size 200 --exact [0m
+action: dynamic-ss
+config.epsilon=0.001 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 613586 m: 3980318
+load graph finish 
+init parameters graph.n=613586 
+access(prefix.c_str()=-1 
+finished initing parameters 
+graph.n=613586 graph.m=3980318 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=1.62976e-06 
+config.pfail=1.62976e-06 
+config.rmax=9.86655e-11 
+config.omega=1.72138e+13 
+### Timer 
+t=   0  0.000143  
+t=  13  0.000121  
+
+trw:747310124
+hrw:0
+### Timer 
+t=   0  0.000143  
+t=   3  547.026401  
+t=   5  322.081189  
+t=   6  224.557519  
+t=  13  0.000121  
