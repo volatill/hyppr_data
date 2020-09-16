@@ -1,0 +1,7 @@
+[0;32m--------------start------------2020-09-15 16:39:39[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon --prefix ./data/ --dataset --with_idx --baton --beta --query_size 300 --update_size 700 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
