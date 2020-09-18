@@ -1,0 +1,1971 @@
+[0;32m--------------start------------2020-09-17 00:43:12[0m
+[0;32margs:dynamic-hybrid --algo fora+baton --epsilon 0.5 --prefix ./data/ --dataset webstanford --query_size 150 --update_size 150 --beta 1 --with_idx [0m
+action: dynamic-hybrid
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-hybrid 
+sub constructor 
+init graph n: 281904 m: 2312497
+load graph finish 
+finished initing parameters 
+graph.n=281904 graph.m=2312497 
+ss_size=50 topk_size=50 onehop_size=50 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=3.54731e-06 
+config.pfail=3.54731e-06 
+config.rmax=9.82503e-08 
+config.omega=3.7331e+07 
+i=0 
+compute_ppr_with_fwdidx_hybrid 
+i=1 
+i=2 
+i=3 
+compute_ppr_with_fwdidx_hybrid 
+i=4 
+compute_ppr_with_fwdidx_hybrid 
+i=5 
+compute_ppr_with_fwdidx_hybrid 
+i=6 
+i=7 
+i=8 
+compute_ppr_with_fwdidx_hybrid 
+i=9 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.061933 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.051538 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0444274 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0393459 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0298938 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0216305 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0172305 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0145703 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0122616 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0103559 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00867748 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00712373 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00604517 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.0051248 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00424817 
+Id: 86615  Delta: 1.52588e-05
+i=10 
+i=11 
+compute_ppr_with_fwdidx_hybrid 
+i=12 
+i=13 
+i=14 
+i=15 
+compute_ppr_with_fwdidx_hybrid 
+i=16 
+i=17 
+i=18 
+compute_ppr_with_fwdidx_hybrid 
+i=19 
+i=20 
+compute_ppr_with_fwdidx_hybrid 
+i=21 
+compute_ppr_with_fwdidx_hybrid 
+i=22 
+i=23 
+compute_ppr_with_fwdidx_hybrid 
+i=24 
+i=25 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.00987819 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00919521 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00697271 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00540883 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00419764 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00285926 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0023767 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00220293 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00198287 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00164344 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00123801 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.000923958 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.000684816 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.000568546 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.000503757 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00043558 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.000360059 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=0.000334564 
+Id: 253224  Delta: 3.54731e-06
+i=26 
+i=27 
+i=28 
+compute_ppr_with_fwdidx_hybrid 
+i=29 
+compute_ppr_with_fwdidx_hybrid 
+i=30 
+i=31 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.221341 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.196064 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.170876 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.147948 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.12483 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.104111 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0813162 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0649102 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0507339 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0401242 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0315972 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.024308 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0191308 
+Id: 280220  Delta: 6.10352e-05
+i=32 
+i=33 
+compute_ppr_with_fwdidx_hybrid 
+i=34 
+i=35 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0131442 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00846958 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00624145 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00429504 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00301361 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00211618 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.00157808 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00105558 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00072339 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.000516606 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.000376973 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.000257908 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.000187291 
+Id: 122960  Delta: 6.10352e-05
+i=36 
+i=37 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.022938 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0179524 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0153502 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0130238 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0106082 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00881198 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.00745618 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00637209 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00529863 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00439841 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00327512 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00242833 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0019144 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00160215 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00138323 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00111437 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.000814271 
+Id: 39817  Delta: 3.8147e-06
+i=38 
+i=39 
+i=40 
+compute_ppr_with_fwdidx_hybrid 
+i=41 
+compute_ppr_with_fwdidx_hybrid 
+i=42 
+i=43 
+i=44 
+i=45 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0976273 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0722915 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0558664 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0467579 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0387047 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0309618 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0252617 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0208184 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0170225 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0116453 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00864265 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00683241 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00532247 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00443662 
+Id: 6948  Delta: 3.05176e-05
+i=46 
+i=47 
+i=48 
+i=49 
+compute_ppr_with_fwdidx_hybrid 
+i=50 
+i=51 
+i=52 
+compute_ppr_with_fwdidx_hybrid 
+i=53 
+compute_ppr_with_fwdidx_hybrid 
+i=54 
+i=55 
+compute_ppr_with_fwdidx_hybrid 
+i=56 
+i=57 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.074797 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.057654 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0439678 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0360131 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0299106 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0238962 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0192642 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0173318 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0141437 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0114736 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00946913 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00754323 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00589869 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00466017 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00367224 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.0029223 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.00233849 
+Id: 81800  Delta: 3.8147e-06
+i=58 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.154594 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.12297 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.100502 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0874579 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0689503 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0583679 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0483988 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0337732 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0247165 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0192138 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0146682 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0110493 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00781067 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00639344 
+Id: 30684  Delta: 3.05176e-05
+i=59 
+i=60 
+i=61 
+compute_ppr_with_fwdidx_hybrid 
+i=62 
+compute_ppr_with_fwdidx_hybrid 
+i=63 
+compute_ppr_with_fwdidx_hybrid 
+i=64 
+compute_ppr_with_fwdidx_hybrid 
+i=65 
+i=66 
+i=67 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.135045 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.116184 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.103219 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0871006 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0749666 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0658003 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0573566 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0478983 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0400342 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0326458 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.02661 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.021489 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0174385 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.013966 
+Id: 55901  Delta: 3.05176e-05
+i=68 
+i=69 
+i=70 
+i=71 
+i=72 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0134668 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0109781 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00985178 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00883895 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00768733 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00664966 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.00575411 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00498548 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00435598 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00389207 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00342908 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00304119 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00255622 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00224212 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00192761 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00166813 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.00143254 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=0.00140588 
+Id: 76775  Delta: 3.54731e-06
+i=73 
+compute_ppr_with_fwdidx_hybrid 
+i=74 
+compute_ppr_with_fwdidx_hybrid 
+i=75 
+i=76 
+i=77 
+compute_ppr_with_fwdidx_hybrid 
+i=78 
+compute_ppr_with_fwdidx_hybrid 
+i=79 
+compute_ppr_with_fwdidx_hybrid 
+i=80 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.141627 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.122485 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.10829 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0953781 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0846889 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.072354 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0592932 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0497846 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0402297 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0324224 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0265542 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0212076 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.016953 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.0133416 
+Id: 76681  Delta: 3.05176e-05
+i=81 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.000506634 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000320931 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000223497 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.000168732 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000133173 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=8.59206e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=5.89134e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=4.44517e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=3.33745e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=2.26232e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=1.61196e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=1.16329e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=9.0658e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=6.13829e-06 
+Id: 144975  Delta: 3.05176e-05
+i=82 
+i=83 
+i=84 
+i=85 
+compute_ppr_with_fwdidx_hybrid 
+i=86 
+i=87 
+i=88 
+compute_ppr_with_fwdidx_hybrid 
+i=89 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.000368576 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000235727 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000142983 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=9.69896e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=8.1913e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=6.31852e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=3.3979e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=3.31396e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=2.24688e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=1.30226e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=9.14874e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=7.44977e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=4.80334e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=3.65447e-06 
+Id: 177319  Delta: 3.05176e-05
+i=90 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0737746 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0571942 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0471853 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0351959 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.028783 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0248419 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0198296 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0162856 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0139908 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0113506 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00894922 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00685218 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00528009 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00407984 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00291837 
+Id: 202510  Delta: 1.52588e-05
+i=91 
+i=92 
+i=93 
+compute_ppr_with_fwdidx_hybrid 
+i=94 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.175607 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.137638 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.087905 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0680338 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0525778 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0458363 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0383481 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0287434 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0217517 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0177759 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0141228 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0110772 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00881039 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00688644 
+Id: 175635  Delta: 3.05176e-05
+i=95 
+compute_ppr_with_fwdidx_hybrid 
+i=96 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.154975 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.121995 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.102179 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0855417 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0695806 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0575212 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0485287 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0330811 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0245387 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0192368 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0144038 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0111541 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00855593 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00638558 
+Id: 224177  Delta: 3.05176e-05
+i=97 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=1.42725e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=1.1418e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=7.30751e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=5.84601e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=3.74144e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=2.99316e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=1.91562e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=1.5325e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=9.80797e-07 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=7.84638e-07 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=5.02168e-07 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=3.21388e-07 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=2.5711e-07 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=1.6455e-07 
+Id: 215453  Delta: 3.05176e-05
+i=98 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.112609 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0997512 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0866696 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0757619 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.067071 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0589338 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0499547 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0408787 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0346646 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0278328 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0226286 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0185746 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0147099 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.0116919 
+Id: 120665  Delta: 3.05176e-05
+i=99 
+i=100 
+compute_ppr_with_fwdidx_hybrid 
+i=101 
+compute_ppr_with_fwdidx_hybrid 
+i=102 
+i=103 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0215268 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0127896 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0119331 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0101564 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00633858 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00387482 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.00272994 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00229883 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00181093 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00138864 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00086291 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.000631277 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.000502444 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.000406678 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.000310553 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.000216116 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.000133536 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=0.000123962 
+Id: 129519  Delta: 3.54731e-06
+i=104 
+i=105 
+compute_ppr_with_fwdidx_hybrid 
+i=106 
+i=107 
+i=108 
+i=109 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.00210088 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00146654 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00105227 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.000741787 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000531538 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.000361036 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.000261165 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.000182143 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.000131684 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=9.281e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=6.4312e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=4.5314e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=3.17494e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=2.3064e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=1.65036e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=1.14464e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=8.3144e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=7.76548e-06 
+Id: 46309  Delta: 3.54731e-06
+i=110 
+i=111 
+i=112 
+compute_ppr_with_fwdidx_hybrid 
+i=113 
+i=114 
+i=115 
+compute_ppr_with_fwdidx_hybrid 
+i=116 
+i=117 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.076797 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.059537 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0476003 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0381697 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0299769 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0239657 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.019222 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0166878 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0138194 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0114113 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00889057 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00731104 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00574979 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.0045653 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00351484 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00280731 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.00221008 
+Id: 138017  Delta: 3.8147e-06
+i=118 
+compute_ppr_with_fwdidx_hybrid 
+i=119 
+i=120 
+i=121 
+i=122 
+compute_ppr_with_fwdidx_hybrid 
+i=123 
+i=124 
+i=125 
+i=126 
+i=127 
+i=128 
+compute_ppr_with_fwdidx_hybrid 
+i=129 
+compute_ppr_with_fwdidx_hybrid 
+i=130 
+compute_ppr_with_fwdidx_hybrid 
+i=131 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.155323 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.119112 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.100821 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0865815 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0692949 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0578787 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0488704 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0329037 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0246911 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0193297 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0144805 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.010988 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00778344 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00637314 
+Id: 100935  Delta: 3.05176e-05
+i=132 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0821258 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0688125 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0528996 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0461168 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0408825 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0352625 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0304215 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.027296 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0215754 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.01728 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.014327 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0121133 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00941742 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00779408 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00595938 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00483241 
+Id: 44225  Delta: 7.62939e-06
+i=133 
+compute_ppr_with_fwdidx_hybrid 
+i=134 
+i=135 
+compute_ppr_with_fwdidx_hybrid 
+i=136 
+i=137 
+compute_ppr_with_fwdidx_hybrid 
+i=138 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0830195 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0689217 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0599913 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0545867 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.048488 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0427768 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.037152 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0322784 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0274535 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0230945 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0192771 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0159577 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0127073 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.0103262 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00814307 
+Id: 61552  Delta: 1.52588e-05
+i=139 
+compute_ppr_with_fwdidx_hybrid 
+i=140 
+compute_ppr_with_fwdidx_hybrid 
+i=141 
+i=142 
+i=143 
+compute_ppr_with_fwdidx_hybrid 
+i=144 
+compute_ppr_with_fwdidx_hybrid 
+i=145 
+compute_ppr_with_fwdidx_hybrid 
+i=146 
+i=147 
+i=148 
+compute_ppr_with_fwdidx_hybrid 
+i=149 
+i=150 
+i=151 
+compute_ppr_with_fwdidx_hybrid 
+i=152 
+compute_ppr_with_fwdidx_hybrid 
+i=153 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.15362 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.124377 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.108224 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0926417 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0784984 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0654991 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0559487 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0477941 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0376767 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0302041 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0244874 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0194597 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0154431 
+Id: 222191  Delta: 6.10352e-05
+i=154 
+compute_ppr_with_fwdidx_hybrid 
+i=155 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0316061 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0265205 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0231035 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0209125 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0186718 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0163494 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0146589 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0129883 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0117691 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0102462 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00886471 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00743035 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00641662 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00545024 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00459142 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00378821 
+Id: 150397  Delta: 7.62939e-06
+i=156 
+compute_ppr_with_fwdidx_hybrid 
+i=157 
+i=158 
+compute_ppr_with_fwdidx_hybrid 
+i=159 
+compute_ppr_with_fwdidx_hybrid 
+i=160 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0112867 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0101174 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00929271 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00851953 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00785967 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00673083 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.00623968 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00567241 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00504131 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00460873 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00420039 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00377835 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00329324 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00293543 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.0025636 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00218726 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.00184877 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=0.00181618 
+Id: 251495  Delta: 3.54731e-06
+i=161 
+compute_ppr_with_fwdidx_hybrid 
+i=162 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.000526534 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000386087 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000243291 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00018057 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000123945 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=8.47045e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=7.6126e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=4.26636e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=3.29786e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=2.18217e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=1.75888e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=1.44857e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=8.80522e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=6.54445e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=4.07853e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=3.02375e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=1.9427e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=1.9427e-06 
+Id: 259252  Delta: 3.54731e-06
+i=163 
+compute_ppr_with_fwdidx_hybrid 
+i=164 
+i=165 
+compute_ppr_with_fwdidx_hybrid 
+i=166 
+compute_ppr_with_fwdidx_hybrid 
+i=167 
+i=168 
+i=169 
+i=170 
+i=171 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.00363172 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00250602 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00159096 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00135605 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000778557 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.000587078 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.000408931 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.000302558 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.000243116 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.000164389 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.000116751 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=7.55793e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=5.24354e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=3.30707e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=2.68705e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=1.88789e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=1.44249e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=1.31305e-05 
+Id: 225826  Delta: 3.54731e-06
+i=172 
+i=173 
+compute_ppr_with_fwdidx_hybrid 
+i=174 
+i=175 
+i=176 
+i=177 
+i=178 
+compute_ppr_with_fwdidx_hybrid 
+i=179 
+i=180 
+i=181 
+i=182 
+i=183 
+i=184 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0118142 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00945506 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00877122 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00787169 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00748716 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00689213 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.00640212 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00588383 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00541051 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00486076 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00448577 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00390463 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00340426 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00306152 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00264402 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.00229058 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.0019253 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=0.00189136 
+Id: 20573  Delta: 3.54731e-06
+i=185 
+compute_ppr_with_fwdidx_hybrid 
+i=186 
+compute_ppr_with_fwdidx_hybrid 
+i=187 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.141483 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.113496 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0954809 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0829399 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0704499 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0606509 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.050988 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0430399 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0349381 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0281593 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0229806 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0183487 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0143186 
+Id: 64798  Delta: 6.10352e-05
+i=188 
+compute_ppr_with_fwdidx_hybrid 
+i=189 
+compute_ppr_with_fwdidx_hybrid 
+i=190 
+i=191 
+i=192 
+i=193 
+compute_ppr_with_fwdidx_hybrid 
+i=194 
+i=195 
+i=196 
+i=197 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0113389 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00638756 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00491691 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00328337 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00230767 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00174432 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.00109802 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.00082747 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.000578141 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.000393581 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00029242 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.000204722 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.000150123 
+Id: 186742  Delta: 6.10352e-05
+i=198 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.00315852 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00253748 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00172137 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00121481 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000926428 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.000650033 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.000502396 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.000364084 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.000291883 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.000207093 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.000176161 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.000127962 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.000110017 
+Id: 244179  Delta: 6.10352e-05
+i=199 
+i=200 
+i=201 
+compute_ppr_with_fwdidx_hybrid 
+i=202 
+compute_ppr_with_fwdidx_hybrid 
+i=203 
+i=204 
+i=205 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0586959 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0377573 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.031386 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0239219 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0166493 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0137505 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0116532 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0102189 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.00678119 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00484817 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0035228 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00260773 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00196846 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00164094 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.0012846 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=0.000961248 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=0.00081077 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=0.000755063 
+Id: 5092  Delta: 3.54731e-06
+i=206 
+i=207 
+i=208 
+compute_ppr_with_fwdidx_hybrid 
+i=209 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.00531253 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0028601 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00211453 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00143691 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0010632 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.000690918 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.000544347 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.000365931 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.000261366 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.000185369 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.000138505 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=9.30493e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=6.39604e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=4.74328e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=3.29058e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=3.71215e+07 check_rsum=2.43799e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.4243e+07 check_rsum=1.74805e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=7.98393e+07 check_rsum=1.71257e-05 
+Id: 96052  Delta: 3.54731e-06
+i=210 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0815578 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0644429 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0438635 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.035606 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0280607 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0223959 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0174172 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0143143 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.011622 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00934363 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00732272 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00579271 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00410775 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00300339 
+Id: 210151  Delta: 3.05176e-05
+i=211 
+i=212 
+i=213 
+i=214 
+compute_ppr_with_fwdidx_hybrid 
+i=215 
+i=216 
+i=217 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.000210385 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000150253 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000103773 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=7.40828e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=5.29182e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=3.65341e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=2.60882e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=1.86408e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=1.28635e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=9.18853e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=6.34371e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=4.52989e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=3.23674e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=2.391e-06 
+Id: 36340  Delta: 3.05176e-05
+i=218 
+i=219 
+compute_ppr_with_fwdidx_hybrid 
+i=220 
+i=221 
+compute_ppr_with_fwdidx_hybrid 
+i=222 
+i=223 
+i=224 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.152625 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.122791 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.106459 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.091554 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0781237 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0649424 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0553131 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0472749 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0373808 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0299729 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0243768 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0193419 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0154343 
+Id: 158316  Delta: 6.10352e-05
+i=225 
+compute_ppr_with_fwdidx_hybrid 
+i=226 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0653899 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0571786 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0480705 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0314275 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.024982 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0203551 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0161272 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0137246 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0115228 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.00971511 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.00818672 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.00669036 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00560746 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.0047507 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00397579 
+Id: 146963  Delta: 1.52588e-05
+i=227 
+i=228 
+compute_ppr_with_fwdidx_hybrid 
+i=229 
+i=230 
+i=231 
+compute_ppr_with_fwdidx_hybrid 
+i=232 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.15362 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.124377 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.108224 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0926417 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0784984 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0654991 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0559487 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0477941 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0376769 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0302094 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0244866 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.019489 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0154444 
+Id: 185335  Delta: 6.10352e-05
+i=233 
+compute_ppr_with_fwdidx_hybrid 
+i=234 
+i=235 
+i=236 
+i=237 
+i=238 
+compute_ppr_with_fwdidx_hybrid 
+i=239 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.234165 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.203595 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.179416 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.15093 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0975132 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0640362 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0530065 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0444795 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0365535 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0295295 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0240516 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0180932 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0152255 
+Id: 140844  Delta: 6.10352e-05
+i=240 
+i=241 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.000551312 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000383038 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000230521 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.000200561 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00012255 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.000101961 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=6.37429e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=5.06222e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=3.04007e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=2.3928e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=1.61299e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=1.06221e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=8.89061e-06 
+Id: 145429  Delta: 6.10352e-05
+i=242 
+i=243 
+i=244 
+i=245 
+compute_ppr_with_fwdidx_hybrid 
+i=246 
+i=247 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.00301383 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.00240845 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00193751 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00151337 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00116061 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00103631 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.000850791 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.000690226 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.000547575 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.000401327 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.000312919 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.000245885 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.00019785 
+Id: 120514  Delta: 6.10352e-05
+i=248 
+i=249 
+compute_ppr_with_fwdidx_hybrid 
+i=250 
+compute_ppr_with_fwdidx_hybrid 
+i=251 
+i=252 
+compute_ppr_with_fwdidx_hybrid 
+i=253 
+i=254 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.000955136 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000629447 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000385396 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.000281672 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.00022219 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.000158886 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.000105053 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=7.71742e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=6.4721e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=3.70834e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=2.76756e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=2.42859e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=1.3709e-05 
+Id: 9920  Delta: 6.10352e-05
+i=255 
+i=256 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.00061045 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000369161 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000252874 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.000196967 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000165068 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.00010385 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=6.98181e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=5.5578e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=4.18901e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=2.80145e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=2.00941e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=1.46981e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=1.22054e-05 
+Id: 196348  Delta: 6.10352e-05
+i=257 
+compute_ppr_with_fwdidx_hybrid 
+i=258 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.142365 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.121062 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.100554 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0863532 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0753333 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0655675 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0550404 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0462673 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.037068 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0302123 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0241754 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0191779 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.015477 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.0121614 
+Id: 14516  Delta: 3.05176e-05
+i=259 
+i=260 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.000462969 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000290381 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.00020604 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.00015693 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000121759 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=7.94447e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=5.50882e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=4.1933e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=3.08501e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=2.09531e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=1.50164e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=1.09135e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=8.596e-06 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=5.75842e-06 
+Id: 101186  Delta: 3.05176e-05
+i=261 
+i=262 
+compute_ppr_with_fwdidx_hybrid 
+i=263 
+compute_ppr_with_fwdidx_hybrid 
+i=264 
+i=265 
+compute_ppr_with_fwdidx_hybrid 
+i=266 
+i=267 
+compute_ppr_with_fwdidx_hybrid 
+i=268 
+compute_ppr_with_fwdidx_hybrid 
+i=269 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0011823 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.000829995 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.000502783 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.000472083 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.000281272 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.000184198 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.000151675 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=9.87531e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=6.9093e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=4.65079e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=3.36689e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=2.4222e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=1.6771e-05 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=1.29319e-05 
+Id: 267893  Delta: 3.05176e-05
+i=270 
+i=271 
+i=272 
+i=273 
+i=274 
+i=275 
+compute_ppr_with_fwdidx_hybrid 
+i=276 
+i=277 
+i=278 
+compute_ppr_with_fwdidx_hybrid 
+i=279 
+i=280 
+i=281 
+compute_ppr_with_fwdidx_hybrid 
+i=282 
+compute_ppr_with_fwdidx_hybrid 
+i=283 
+i=284 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.0600755 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.0527435 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.0481895 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0428652 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.038917 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.0340063 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.0306431 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0272832 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0229759 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.0195229 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0160167 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0130869 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.0105948 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.00864457 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.85608e+07 check_rsum=0.00710243 
+Id: 234015  Delta: 1.52588e-05
+i=285 
+compute_ppr_with_fwdidx_hybrid 
+i=286 
+i=287 
+i=288 
+compute_ppr_with_fwdidx_hybrid 
+i=289 
+i=290 
+i=291 
+i=292 
+compute_ppr_with_fwdidx_hybrid 
+i=293 
+compute_ppr_with_fwdidx_hybrid 
+i=294 
+i=295 
+compute_ppr_with_fwdidx_hybrid 
+i=296 
+i=297 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1132.86 check_rsum=0.1217 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2265.72 check_rsum=0.106455 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4531.43 check_rsum=0.094333 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9062.87 check_rsum=0.0845104 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=18125.7 check_rsum=0.0750511 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=36251.5 check_rsum=0.06503 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=72502.9 check_rsum=0.054582 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=145006 check_rsum=0.0456246 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=290012 check_rsum=0.0375555 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=580023 check_rsum=0.03111 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=1.16005e+06 check_rsum=0.0253895 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=2.32009e+06 check_rsum=0.0212884 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=4.64019e+06 check_rsum=0.017192 
+compute_ppr_with_fwdidx_topk_with_bound_hybrid 
+config.omega=9.28038e+06 check_rsum=0.013491 
+Id: 124553  Delta: 3.05176e-05
+i=298 
+compute_ppr_with_fwdidx_hybrid 
+i=299 
+### Timer 
+t=   0  489.002424  
+t=   3  0.519038  
+t=   5  0.590435  
+t=   6  0.562466  
+t=   8  0.163111  
+t=  13  487.267447  
+t= 100  0.183575  
+config.beta=1 
+[0;31m--------------stop------------2020-09-17 00:51:22[0m
+
+
+

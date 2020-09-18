@@ -1,0 +1,966 @@
+[0;32m--------------start------------2020-09-15 21:16:12[0m
+[0;32margs:query --algo resacc --epsilon 0.5 --prefix ./data/ --dataset pokec --beta 1 --query_size 200 [0m
+action: query
+config.epsilon=0.5 
+config.version=vector 
+config.action=query 
+sub constructor 
+init graph n: 1632803 m: 30622564
+load graph finish 
+finihsed initing parameters 
+graph.n=1632803 graph.m=30622564 
+config.algo=resacc 
+query_size=200 
+config.rmax_scale=1 
+config.delta=6.12444e-07 
+config.pfail=6.12444e-07 
+config.rmax=1.05412e-08 
+config.omega=2.44903e+08 
+1. source node:140635
+# of iteration from source: 9
+Scaler: 1.0257
+rsum=1 
+----------------------------- 
+2. source node:1141391
+# of iteration from source: 8
+Scaler: 1.01325
+rsum=1 
+----------------------------- 
+3. source node:578542
+# of iteration from source: 17
+Scaler: 1.18242
+rsum=1 
+----------------------------- 
+4. source node:1062809
+# of iteration from source: 12
+Scaler: 1.05785
+rsum=1 
+----------------------------- 
+5. source node:1048180
+# of iteration from source: 10
+Scaler: 1.0371
+rsum=1 
+----------------------------- 
+6. source node:134529
+# of iteration from source: 12
+Scaler: 1.0647
+rsum=1 
+----------------------------- 
+7. source node:711133
+# of iteration from source: 11
+Scaler: 1.04781
+rsum=1 
+----------------------------- 
+8. source node:379125
+# of iteration from source: 12
+Scaler: 1.06458
+rsum=1 
+----------------------------- 
+9. source node:1442468
+# of iteration from source: 12
+Scaler: 1.06545
+rsum=1 
+----------------------------- 
+10. source node:1415873
+# of iteration from source: 8
+Scaler: 1.01286
+rsum=1 
+----------------------------- 
+11. source node:562012
+# of iteration from source: 11
+Scaler: 1.05788
+rsum=1 
+----------------------------- 
+12. source node:1147979
+# of iteration from source: 11
+Scaler: 1.04275
+rsum=1 
+----------------------------- 
+13. source node:1155926
+# of iteration from source: 9
+Scaler: 1.01841
+rsum=1 
+----------------------------- 
+14. source node:1173642
+# of iteration from source: 11
+Scaler: 1.0584
+rsum=1 
+----------------------------- 
+15. source node:330848
+# of iteration from source: 9
+Scaler: 1.02668
+rsum=1 
+----------------------------- 
+16. source node:1190444
+# of iteration from source: 13
+Scaler: 1.07088
+rsum=1 
+----------------------------- 
+17. source node:1078859
+# of iteration from source: 9
+Scaler: 1.01905
+rsum=1 
+----------------------------- 
+18. source node:867397
+# of iteration from source: 12
+Scaler: 1.07167
+rsum=1 
+----------------------------- 
+19. source node:1026341
+rsum=1 
+----------------------------- 
+20. source node:1331907
+# of iteration from source: 11
+Scaler: 1.03524
+rsum=1 
+----------------------------- 
+21. source node:667099
+# of iteration from source: 14
+Scaler: 1.09198
+rsum=1 
+----------------------------- 
+22. source node:1234799
+# of iteration from source: 10
+Scaler: 1.0292
+rsum=1 
+----------------------------- 
+23. source node:1138099
+# of iteration from source: 11
+Scaler: 1.04497
+rsum=1 
+----------------------------- 
+24. source node:41614
+# of iteration from source: 9
+Scaler: 1.02971
+rsum=1 
+----------------------------- 
+25. source node:1471482
+# of iteration from source: 14
+Scaler: 1.08048
+rsum=1 
+----------------------------- 
+26. source node:930191
+# of iteration from source: 9
+Scaler: 1.02673
+rsum=1 
+----------------------------- 
+27. source node:100604
+# of iteration from source: 13
+Scaler: 1.10151
+rsum=1 
+----------------------------- 
+28. source node:143476
+# of iteration from source: 9
+Scaler: 1.03742
+rsum=1 
+----------------------------- 
+29. source node:206777
+# of iteration from source: 11
+Scaler: 1.04743
+rsum=1 
+----------------------------- 
+30. source node:1084622
+# of iteration from source: 13
+Scaler: 1.08155
+rsum=1 
+----------------------------- 
+31. source node:1322626
+# of iteration from source: 9
+Scaler: 1.02598
+rsum=1 
+----------------------------- 
+32. source node:1632513
+rsum=1 
+----------------------------- 
+33. source node:593210
+# of iteration from source: 10
+Scaler: 1.04377
+rsum=1 
+----------------------------- 
+34. source node:268365
+# of iteration from source: 12
+Scaler: 1.06828
+rsum=1 
+----------------------------- 
+35. source node:714816
+rsum=1 
+----------------------------- 
+36. source node:8588
+# of iteration from source: 11
+Scaler: 1.0623
+rsum=1 
+----------------------------- 
+37. source node:402895
+# of iteration from source: 13
+Scaler: 1.06155
+rsum=1 
+----------------------------- 
+38. source node:1425949
+# of iteration from source: 10
+Scaler: 1.03137
+rsum=1 
+----------------------------- 
+39. source node:40010
+# of iteration from source: 9
+Scaler: 1.02604
+rsum=1 
+----------------------------- 
+40. source node:1497660
+# of iteration from source: 11
+Scaler: 1.0374
+rsum=1 
+----------------------------- 
+41. source node:861317
+rsum=1 
+----------------------------- 
+42. source node:602022
+rsum=1 
+----------------------------- 
+43. source node:665133
+# of iteration from source: 10
+Scaler: 1.0413
+rsum=1 
+----------------------------- 
+44. source node:384440
+# of iteration from source: 13
+Scaler: 1.08948
+rsum=1 
+----------------------------- 
+45. source node:1427962
+# of iteration from source: 13
+Scaler: 1.073
+rsum=1 
+----------------------------- 
+46. source node:995981
+# of iteration from source: 13
+Scaler: 1.08136
+rsum=1 
+----------------------------- 
+47. source node:1574885
+rsum=1 
+----------------------------- 
+48. source node:526315
+# of iteration from source: 11
+Scaler: 1.04197
+rsum=1 
+----------------------------- 
+49. source node:1515676
+# of iteration from source: 12
+Scaler: 1.04963
+rsum=1 
+----------------------------- 
+50. source node:968423
+# of iteration from source: 13
+Scaler: 1.09174
+rsum=1 
+----------------------------- 
+51. source node:225419
+# of iteration from source: 10
+Scaler: 1.03551
+rsum=1 
+----------------------------- 
+52. source node:549972
+# of iteration from source: 9
+Scaler: 1.02195
+rsum=1 
+----------------------------- 
+53. source node:570419
+# of iteration from source: 15
+Scaler: 1.12029
+rsum=1 
+----------------------------- 
+54. source node:1015816
+rsum=1 
+----------------------------- 
+55. source node:243884
+# of iteration from source: 12
+Scaler: 1.07828
+rsum=1 
+----------------------------- 
+56. source node:61395
+# of iteration from source: 10
+Scaler: 1.03989
+rsum=1 
+----------------------------- 
+57. source node:1598304
+rsum=1 
+----------------------------- 
+58. source node:1629588
+rsum=1 
+----------------------------- 
+59. source node:204871
+# of iteration from source: 9
+Scaler: 1.02231
+rsum=1 
+----------------------------- 
+60. source node:172278
+# of iteration from source: 9
+Scaler: 1.02375
+rsum=1 
+----------------------------- 
+61. source node:1081407
+# of iteration from source: 11
+Scaler: 1.04097
+rsum=1 
+----------------------------- 
+62. source node:1179794
+# of iteration from source: 10
+Scaler: 1.03485
+rsum=1 
+----------------------------- 
+63. source node:1457088
+# of iteration from source: 10
+Scaler: 1.03144
+rsum=1 
+----------------------------- 
+64. source node:1326914
+# of iteration from source: 13
+Scaler: 1.08736
+rsum=1 
+----------------------------- 
+65. source node:1448160
+rsum=1 
+----------------------------- 
+66. source node:539101
+# of iteration from source: 13
+Scaler: 1.08211
+rsum=1 
+----------------------------- 
+67. source node:1335502
+# of iteration from source: 10
+Scaler: 1.02819
+rsum=1 
+----------------------------- 
+68. source node:1503352
+rsum=1 
+----------------------------- 
+69. source node:332248
+# of iteration from source: 9
+Scaler: 1.03322
+rsum=1 
+----------------------------- 
+70. source node:1375512
+# of iteration from source: 11
+Scaler: 1.04163
+rsum=1 
+----------------------------- 
+71. source node:1020506
+# of iteration from source: 18
+Scaler: 1.19138
+rsum=1 
+----------------------------- 
+72. source node:1193565
+# of iteration from source: 8
+Scaler: 1.00909
+rsum=1 
+----------------------------- 
+73. source node:1629832
+# of iteration from source: 78
+Scaler: 2.77778
+rsum=1 
+----------------------------- 
+74. source node:52837
+# of iteration from source: 9
+Scaler: 1.02037
+rsum=1 
+----------------------------- 
+75. source node:1578005
+rsum=1 
+----------------------------- 
+76. source node:1077288
+# of iteration from source: 15
+Scaler: 1.12002
+rsum=1 
+----------------------------- 
+77. source node:1048818
+# of iteration from source: 13
+Scaler: 1.07917
+rsum=1 
+----------------------------- 
+78. source node:1172384
+# of iteration from source: 16
+Scaler: 1.13883
+rsum=1 
+----------------------------- 
+79. source node:1603603
+rsum=1 
+----------------------------- 
+80. source node:931691
+# of iteration from source: 10
+Scaler: 1.037
+rsum=1 
+----------------------------- 
+81. source node:508004
+# of iteration from source: 14
+Scaler: 1.09759
+rsum=1 
+----------------------------- 
+82. source node:1481320
+# of iteration from source: 13
+Scaler: 1.09046
+rsum=1 
+----------------------------- 
+83. source node:1133961
+# of iteration from source: 16
+Scaler: 1.14017
+rsum=1 
+----------------------------- 
+84. source node:730720
+# of iteration from source: 10
+Scaler: 1.0428
+rsum=1 
+----------------------------- 
+85. source node:864333
+# of iteration from source: 10
+Scaler: 1.02898
+rsum=1 
+----------------------------- 
+86. source node:1030142
+# of iteration from source: 17
+Scaler: 1.16134
+rsum=1 
+----------------------------- 
+87. source node:444412
+# of iteration from source: 13
+Scaler: 1.08573
+rsum=1 
+----------------------------- 
+88. source node:482131
+# of iteration from source: 10
+Scaler: 1.04549
+rsum=1 
+----------------------------- 
+89. source node:1026927
+# of iteration from source: 11
+Scaler: 1.0501
+rsum=1 
+----------------------------- 
+90. source node:301581
+# of iteration from source: 11
+Scaler: 1.05405
+rsum=1 
+----------------------------- 
+91. source node:306706
+# of iteration from source: 10
+Scaler: 1.04544
+rsum=1 
+----------------------------- 
+92. source node:127828
+# of iteration from source: 12
+Scaler: 1.08233
+rsum=1 
+----------------------------- 
+93. source node:1481375
+rsum=1 
+----------------------------- 
+94. source node:130992
+# of iteration from source: 10
+Scaler: 1.03915
+rsum=1 
+----------------------------- 
+95. source node:1454742
+# of iteration from source: 12
+Scaler: 1.05879
+rsum=1 
+----------------------------- 
+96. source node:1296732
+# of iteration from source: 14
+Scaler: 1.09504
+rsum=1 
+----------------------------- 
+97. source node:670093
+# of iteration from source: 13
+Scaler: 1.08817
+rsum=1 
+----------------------------- 
+98. source node:809739
+# of iteration from source: 12
+Scaler: 1.06257
+rsum=1 
+----------------------------- 
+99. source node:819578
+rsum=1 
+----------------------------- 
+100. source node:654638
+# of iteration from source: 11
+Scaler: 1.05851
+rsum=1 
+----------------------------- 
+101. source node:204745
+rsum=1 
+----------------------------- 
+102. source node:207282
+# of iteration from source: 12
+Scaler: 1.07099
+rsum=1 
+----------------------------- 
+103. source node:1500500
+rsum=1 
+----------------------------- 
+104. source node:201774
+# of iteration from source: 10
+Scaler: 1.03848
+rsum=1 
+----------------------------- 
+105. source node:260119
+# of iteration from source: 9
+Scaler: 1.02002
+rsum=1 
+----------------------------- 
+106. source node:1445703
+# of iteration from source: 28
+Scaler: 1.41778
+rsum=1 
+----------------------------- 
+107. source node:931359
+# of iteration from source: 14
+Scaler: 1.09456
+rsum=1 
+----------------------------- 
+108. source node:961234
+rsum=1 
+----------------------------- 
+109. source node:637581
+# of iteration from source: 10
+Scaler: 1.03476
+rsum=1 
+----------------------------- 
+110. source node:902160
+# of iteration from source: 12
+Scaler: 1.07582
+rsum=1 
+----------------------------- 
+111. source node:1545223
+# of iteration from source: 11
+Scaler: 1.03639
+rsum=1 
+----------------------------- 
+112. source node:1145586
+# of iteration from source: 14
+Scaler: 1.08913
+rsum=1 
+----------------------------- 
+113. source node:402974
+# of iteration from source: 10
+Scaler: 1.03444
+rsum=1 
+----------------------------- 
+114. source node:1046381
+# of iteration from source: 25
+Scaler: 1.36499
+rsum=1 
+----------------------------- 
+115. source node:1528603
+rsum=1 
+----------------------------- 
+116. source node:919604
+# of iteration from source: 10
+Scaler: 1.02671
+rsum=1 
+----------------------------- 
+117. source node:96017
+# of iteration from source: 13
+Scaler: 1.10198
+rsum=1 
+----------------------------- 
+118. source node:340213
+# of iteration from source: 25
+Scaler: 1.3572
+rsum=1 
+----------------------------- 
+119. source node:1401735
+rsum=1 
+----------------------------- 
+120. source node:1122944
+# of iteration from source: 9
+Scaler: 1.02434
+rsum=1 
+----------------------------- 
+121. source node:294091
+# of iteration from source: 9
+Scaler: 1.02731
+rsum=1 
+----------------------------- 
+122. source node:75638
+# of iteration from source: 9
+Scaler: 1.02845
+rsum=1 
+----------------------------- 
+123. source node:903069
+# of iteration from source: 11
+Scaler: 1.05251
+rsum=1 
+----------------------------- 
+124. source node:142663
+# of iteration from source: 14
+Scaler: 1.10216
+rsum=1 
+----------------------------- 
+125. source node:206630
+# of iteration from source: 11
+Scaler: 1.05416
+rsum=1 
+----------------------------- 
+126. source node:725008
+# of iteration from source: 18
+Scaler: 1.19954
+rsum=1 
+----------------------------- 
+127. source node:1091693
+# of iteration from source: 10
+Scaler: 1.04307
+rsum=1 
+----------------------------- 
+128. source node:529021
+rsum=1 
+----------------------------- 
+129. source node:1187044
+rsum=1 
+----------------------------- 
+130. source node:278468
+# of iteration from source: 13
+Scaler: 1.0832
+rsum=1 
+----------------------------- 
+131. source node:1183659
+# of iteration from source: 12
+Scaler: 1.06339
+rsum=1 
+----------------------------- 
+132. source node:1391790
+rsum=1 
+----------------------------- 
+133. source node:485750
+# of iteration from source: 12
+Scaler: 1.07472
+rsum=1 
+----------------------------- 
+134. source node:703654
+# of iteration from source: 10
+Scaler: 1.0342
+rsum=1 
+----------------------------- 
+135. source node:1245861
+# of iteration from source: 12
+Scaler: 1.06161
+rsum=1 
+----------------------------- 
+136. source node:398166
+# of iteration from source: 13
+Scaler: 1.09286
+rsum=1 
+----------------------------- 
+137. source node:168851
+rsum=1 
+----------------------------- 
+138. source node:544418
+# of iteration from source: 10
+Scaler: 1.0448
+rsum=1 
+----------------------------- 
+139. source node:1359401
+# of iteration from source: 12
+Scaler: 1.05741
+rsum=1 
+----------------------------- 
+140. source node:806432
+# of iteration from source: 15
+Scaler: 1.11317
+rsum=1 
+----------------------------- 
+141. source node:1098875
+# of iteration from source: 12
+Scaler: 1.06624
+rsum=1 
+----------------------------- 
+142. source node:1271821
+# of iteration from source: 11
+Scaler: 1.04979
+rsum=1 
+----------------------------- 
+143. source node:1604315
+rsum=1 
+----------------------------- 
+144. source node:1501849
+# of iteration from source: 11
+Scaler: 1.03285
+rsum=1 
+----------------------------- 
+145. source node:337696
+# of iteration from source: 12
+Scaler: 1.07959
+rsum=1 
+----------------------------- 
+146. source node:1500116
+# of iteration from source: 8
+Scaler: 1.01074
+rsum=1 
+----------------------------- 
+147. source node:788650
+# of iteration from source: 9
+Scaler: 1.0237
+rsum=1 
+----------------------------- 
+148. source node:86010
+# of iteration from source: 10
+Scaler: 1.03688
+rsum=1 
+----------------------------- 
+149. source node:1492626
+# of iteration from source: 8
+Scaler: 1.0107
+rsum=1 
+----------------------------- 
+150. source node:557582
+rsum=1 
+----------------------------- 
+151. source node:861251
+# of iteration from source: 13
+Scaler: 1.07927
+rsum=1 
+----------------------------- 
+152. source node:1439014
+# of iteration from source: 11
+Scaler: 1.04648
+rsum=1 
+----------------------------- 
+153. source node:285517
+# of iteration from source: 9
+Scaler: 1.02264
+rsum=1 
+----------------------------- 
+154. source node:131517
+# of iteration from source: 12
+Scaler: 1.0635
+rsum=1 
+----------------------------- 
+155. source node:1581677
+rsum=1 
+----------------------------- 
+156. source node:492148
+# of iteration from source: 11
+Scaler: 1.0557
+rsum=1 
+----------------------------- 
+157. source node:508822
+# of iteration from source: 10
+Scaler: 1.0448
+rsum=1 
+----------------------------- 
+158. source node:692864
+# of iteration from source: 9
+Scaler: 1.0306
+rsum=1 
+----------------------------- 
+159. source node:673466
+# of iteration from source: 11
+Scaler: 1.04286
+rsum=1 
+----------------------------- 
+160. source node:63064
+# of iteration from source: 8
+Scaler: 1.02144
+rsum=1 
+----------------------------- 
+161. source node:623630
+# of iteration from source: 10
+Scaler: 1.03775
+rsum=1 
+----------------------------- 
+162. source node:1509422
+rsum=1 
+----------------------------- 
+163. source node:1454854
+# of iteration from source: 78
+Scaler: 2.77778
+rsum=1 
+----------------------------- 
+164. source node:761677
+# of iteration from source: 10
+Scaler: 1.03025
+rsum=1 
+----------------------------- 
+165. source node:580273
+# of iteration from source: 11
+Scaler: 1.04722
+rsum=1 
+----------------------------- 
+166. source node:1067912
+# of iteration from source: 11
+Scaler: 1.05077
+rsum=1 
+----------------------------- 
+167. source node:1159844
+# of iteration from source: 15
+Scaler: 1.124
+rsum=1 
+----------------------------- 
+168. source node:749124
+# of iteration from source: 12
+Scaler: 1.07608
+rsum=1 
+----------------------------- 
+169. source node:1612330
+rsum=1 
+----------------------------- 
+170. source node:538739
+# of iteration from source: 17
+Scaler: 1.15786
+rsum=1 
+----------------------------- 
+171. source node:1555557
+# of iteration from source: 34
+Scaler: 1.62695
+rsum=1 
+----------------------------- 
+172. source node:1078402
+# of iteration from source: 8
+Scaler: 1.01028
+rsum=1 
+----------------------------- 
+173. source node:1462857
+# of iteration from source: 8
+Scaler: 1.01259
+rsum=1 
+----------------------------- 
+174. source node:1179366
+# of iteration from source: 11
+Scaler: 1.04041
+rsum=1 
+----------------------------- 
+175. source node:599745
+# of iteration from source: 12
+Scaler: 1.07583
+rsum=1 
+----------------------------- 
+176. source node:1452850
+# of iteration from source: 20
+Scaler: 1.19609
+rsum=1 
+----------------------------- 
+177. source node:1046679
+# of iteration from source: 10
+Scaler: 1.02664
+rsum=1 
+----------------------------- 
+178. source node:1388395
+# of iteration from source: 15
+Scaler: 1.10117
+rsum=1 
+----------------------------- 
+179. source node:1538860
+# of iteration from source: 41
+Scaler: 1.77866
+rsum=1 
+----------------------------- 
+180. source node:558799
+# of iteration from source: 15
+Scaler: 1.13003
+rsum=1 
+----------------------------- 
+181. source node:1598274
+# of iteration from source: 9
+Scaler: 1.01463
+rsum=1 
+----------------------------- 
+182. source node:767308
+# of iteration from source: 21
+Scaler: 1.26397
+rsum=1 
+----------------------------- 
+183. source node:365010
+# of iteration from source: 11
+Scaler: 1.05764
+rsum=1 
+----------------------------- 
+184. source node:250989
+# of iteration from source: 9
+Scaler: 1.02704
+rsum=1 
+----------------------------- 
+185. source node:551122
+rsum=1 
+----------------------------- 
+186. source node:1598985
+rsum=1 
+----------------------------- 
+187. source node:743137
+# of iteration from source: 10
+Scaler: 1.0325
+rsum=1 
+----------------------------- 
+188. source node:1059944
+# of iteration from source: 22
+Scaler: 1.28464
+rsum=1 
+----------------------------- 
+189. source node:311343
+# of iteration from source: 14
+Scaler: 1.10864
+rsum=1 
+----------------------------- 
+190. source node:1068900
+# of iteration from source: 12
+Scaler: 1.05397
+rsum=1 
+----------------------------- 
+191. source node:1123008
+# of iteration from source: 10
+Scaler: 1.03342
+rsum=1 
+----------------------------- 
+192. source node:934973
+# of iteration from source: 10
+Scaler: 1.03528
+rsum=1 
+----------------------------- 
+193. source node:945519
+# of iteration from source: 11
+Scaler: 1.04819
+rsum=1 
+----------------------------- 
+194. source node:597356
+# of iteration from source: 9
+Scaler: 1.03092
+rsum=1 
+----------------------------- 
+195. source node:63848
+# of iteration from source: 12
+Scaler: 1.0764
+rsum=1 
+----------------------------- 
+196. source node:1525793
+# of iteration from source: 32
+Scaler: 1.52595
+rsum=1 
+----------------------------- 
+197. source node:32466
+# of iteration from source: 10
+Scaler: 1.03804
+rsum=1 
+----------------------------- 
+198. source node:875989
+# of iteration from source: 9
+Scaler: 1.01742
+rsum=1 
+----------------------------- 
+199. source node:294411
+# of iteration from source: 9
+Scaler: 1.02975
+rsum=1 
+----------------------------- 
+200. source node:1297093
+# of iteration from source: 11
+Scaler: 1.05447
+rsum=1 
+----------------------------- 
+Average query time (s):15.4117
+Memory usage (MB):6918.5
+
+0.00919662ms for each random walk
+0.000373667ms for each forward push
+### Timer 
+t=   3  3082.340842  
+t=   5  181.503415  
+t=   6  2894.310217  
+config.beta=1 

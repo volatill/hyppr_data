@@ -1,0 +1,18 @@
+[0;32m--------------start------------2020-09-18 00:26:03[0m
+[0;32margs:query --algo genda --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --beta 2 --query_size 200 --baton [0m
+action: query
+config.epsilon=0.5 
+config.version=vector 
+config.action=query 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+finihsed initing parameters 
+graph.n=41652230 graph.m=1468364884 
+config.algo=genda 
+query_size=200 
+config.rmax_scale=1 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 
