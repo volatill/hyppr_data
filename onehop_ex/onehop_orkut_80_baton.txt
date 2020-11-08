@@ -1,0 +1,110 @@
+[0;32m--------------start------------2020-11-08 21:57:15[0m
+[0;32margs:dynamic-onehop --algo baton --epsilon 0.5 --prefix ./data/ --dataset orkut --query_size 80 --update_size 320 --beta 1 [0m
+action: dynamic-onehop
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-onehop 
+sub constructor 
+init graph n: 3172700 m: 117185083
+load graph finish 
+finished initing parameters 
+graph.n=3172700 graph.m=117185083 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=3.15189e-07 
+config.pfail=3.15189e-07 
+config.rmax=3.78284e-09 
+config.omega=4.96948e+08 
+i=1 
+i=13 
+i=19 
+i=34 
+i=44 
+i=46 
+i=50 
+i=56 
+i=57 
+i=62 
+i=70 
+i=73 
+i=82 
+i=85 
+i=86 
+i=89 
+i=94 
+i=98 
+i=105 
+i=106 
+i=113 
+i=116 
+i=125 
+i=130 
+i=140 
+i=141 
+i=142 
+i=144 
+i=153 
+i=154 
+i=161 
+i=163 
+i=164 
+i=168 
+i=175 
+i=179 
+i=184 
+i=186 
+i=189 
+i=190 
+i=196 
+i=200 
+i=212 
+i=217 
+i=228 
+i=230 
+i=232 
+i=234 
+i=235 
+i=241 
+i=244 
+i=255 
+i=257 
+i=258 
+i=259 
+i=260 
+i=270 
+i=283 
+i=286 
+i=289 
+i=293 
+i=301 
+i=329 
+i=330 
+i=331 
+i=341 
+i=346 
+i=350 
+i=353 
+i=356 
+i=360 
+i=363 
+i=368 
+i=374 
+i=386 
+i=389 
+i=392 
+i=395 
+i=398 
+i=399 
+Randomwalk: 1233109
+Hit: 0
+### Timer 
+t=   0  1.249466  
+t=   3  1.248610  
+t=   5  0.017312  
+t=   6  0.707065  
+total=1.97299 
+config.beta=1 
+[0;31m--------------stop------------2020-11-08 21:58:04[0m
+
+
+

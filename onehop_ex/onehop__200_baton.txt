@@ -1,0 +1,7 @@
+[0;32m--------------start------------2020-11-08 17:39:32[0m
+[0;32margs:dynamic-onehop --algo baton --epsilon --prefix ./data/ --dataset --query_size 200 --update_size 800 --beta --with_idx [0m
+action: dynamic-onehop
+config.epsilon=0 
+config.version=vector 
+config.action=dynamic-onehop 
+sub constructor 
